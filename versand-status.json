@@ -1,0 +1,25 @@
+{
+ "hub": "Knowledge-Hub Psychische Gesundheit",
+ "domain": "mental.m-vf.de",
+ "datum": "2026-08-25",
+ "stand": "gestoppt",
+ "titel": "MVF Mental-Newsletter 25.08.2026",
+ "betreff": "Neueste Studien - Psychische Gesundheit – 25. August 2026",
+ "anzahl": 6,
+ "pmids": [
+  "42614038",
+  "42608682",
+  "42608046",
+  "42601093",
+  "42591019",
+  "42580809"
+ ],
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098537",
+ "termin_utc": null,
+ "empfaenger": 0,
+ "listengroesse": 5903,
+ "beanstandungen": [
+  "das Empfaengersegment ist leer - niemand wuerde die Ausgabe bekommen"
+ ],
+ "aussortiert": []
+}

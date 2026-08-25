@@ -1,1 +1,80 @@
-[]
+[
+ {
+  "pmid": "42614038",
+  "journal": "Ned Tijdschr Geneeskd",
+  "year": "2026",
+  "author": "Tromp E et al.",
+  "pubdate": "13.08.2026",
+  "added": "19.08.2026",
+  "transfer": "Niederlande (öffentliche Gesundheit), vergleichbar Deutschland; Prävention und Koordination in Schnittstellen zentral.",
+  "title": "73% der Todesfälle nach psychosozialer Meldung: Früherkennung und Koordination unzureichend",
+  "sum": "Retrospektive Audit (17 Gemeinden Utrecht 2018–2024): Personen mit öffentlicher psychosozialer Meldung (n=7.172) und nachfolgende forensische Leichenöffnung (n=155).",
+  "result": "73% bereits bei Meldung in einer oder mehreren Diensten bekannt; 33% mit wiederholten Meldungen. 70% der später verstorbenen starben innerhalb eines Jahres nach letzter Meldung, überwiegend nicht-natürliche Ursachen. Psychiatrische Probleme 70% der Meldungen.",
+  "aufgenommen": "2026-08-25"
+ },
+ {
+  "pmid": "42608682",
+  "journal": "BMC Health Serv Res",
+  "year": "2026",
+  "author": "Oeltjen LK et al.",
+  "pubdate": "11.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Deutsche Krisendienste (Ländersache), ähnliche Struktur Bremen; Kostenträger Bundeszuschuss/Länder.",
+  "title": "Peer Support in Krisendiensten reduziert Eskalation und erhöht Sicherheit",
+  "sum": "Qualitative Studie mit 25 Personen, die Kriseneinsätze erlebt haben (mobil oder ambulant), zur Erfahrung von Krisenintervention mit und ohne Genesungsbegleiter.",
+  "result": "Empathisches Zuhören, ruhige Kommunikation und transparente Erklärungen wurden als unterstützend beschrieben. Genesungsbegleiter wurden überwiegend positiv wahrgenommen – ihre gelebte Erfahrung vermittelte Authentizität und Hoffnung. Polizeieinsätze waren ambivalent: teils beruhigend, teils eskalierend.",
+  "aufgenommen": "2026-08-25"
+ },
+ {
+  "pmid": "42608046",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Kovacs R et al.",
+  "pubdate": "17.08.2026",
+  "added": "17.08.2026",
+  "transfer": "Schweden (Sozialversicherung), vergleichbar deutsches Versicherungssystem; Datenproblem auch in Deutschland.",
+  "title": "Migrantinnen und Migranten: 59% weniger Früherkennung perinataler Erkrankungen",
+  "sum": "Populationsbasierte Kohorte (404.043 Mütter, 391.068 Väter) zur Ungleichheit in Früherkennung, Behandlung und Zeitverzögerung bei perinatalen Erkrankungen nach Migrationsstatus in Schweden.",
+  "result": "Bei außernordisch geborenen Eltern: Erkennung 5,3 Prozentpunkte niedriger für Mütter (59% unter Baseline 9,0%), 2,5 Punkte für Väter (48% unter 5,2%). Bei Diagnose: 12,1 Punkte weniger Behandlung bei Müttern, 7,6 bei Vätern. Zeitverzögerung Diagnose–Behandlung klein.",
+  "aufgenommen": "2026-08-25"
+ },
+ {
+  "pmid": "42601093",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Stannard S et al.",
+  "pubdate": "14.08.2026",
+  "added": "14.08.2026",
+  "transfer": "Wales, vergleichbar Deutschland; public data linkage wie SAIL nicht vorhanden.",
+  "title": "Frühe Schulprobleme: Kleine Reduktion späteren Angst- und Depressionsrisikos",
+  "sum": "Populationsbasierte Datenverknüpfung (236.165 Jungen, 224.462 Mädchen) in Wales: Wirkung hypothetischer Interventionen (Sure Start + kostenlose Schulmahlzeiten) auf Angst/Depression im Alter 13–18.",
+  "result": "2,8% der Jungen und 7,2% der Mädchen mit Angstdiagnose; 2,7% und 6,4% mit Depression. Schulische Benachteiligung (Leistung, Fehlzeiten, Ausschluss) assoziiert mit höherem Angst-/Depressionsrisiko. Hypothetische kombinierte Intervention: 0,6–1,6% absolute Reduktion Angst (Jungen), 0,3–0,5% (Mädchen); 0,4% Depression (Mädchen).",
+  "aufgenommen": "2026-08-25"
+ },
+ {
+  "pmid": "42591019",
+  "journal": "Int J Ment Health Nurs",
+  "year": "2026",
+  "author": "Hostrup KL et al.",
+  "pubdate": "Aug. 2026",
+  "added": "13.08.2026",
+  "transfer": "Dänemark (Region Nord), ähnliche Versorgungsstruktur; Peer-Support Teil Recovery-Modelle.",
+  "title": "Person-zentrierte Gruppe fördert Recovery: Belonging, Hoffnung, Empowerment",
+  "sum": "Qualitative Längsschnittstudie (n=17, 12-Wochen-Intervention Discovery + Guided Self-Determination, Interviews post und 3 Monate später) zur Wirkung auf Recovery-Prozess.",
+  "result": "Intervention förderte persönliche Recovery über alle CHIME-Kategorien (Connectedness, Hope, Identity, Meaning, Empowerment). Peers vermittelten Zugehörigkeitsgefühl, Vertrauen, gegenseitiges Verständnis. Offenheit über psychische Erkrankung stieg. Dauerhafter Effekt nur mit weiterer professioneller Unterstützung.",
+  "aufgenommen": "2026-08-25"
+ },
+ {
+  "pmid": "42580809",
+  "journal": "BMJ Ment Health",
+  "year": "2026",
+  "author": "Cooper SE et al.",
+  "pubdate": "11.08.2026",
+  "added": "11.08.2026",
+  "transfer": "England (NHS), ähnliche Struktur Deutschland; Kostenträger GKV, Zugang durch niedergelassene und ambulante Psychiater.",
+  "title": "Sprachbarrieren und Kulturkompetenz hindern ethnische Minderheiten an Neurodevelopmental-Diagnostik",
+  "sum": "Mixed-Methods-Studie (n=264 Online-Befragung, 9 Fokusgruppen) zu Hürden beim Zugang zu ADHS/Autismus-Diagnostik für ethnische Minderheiten aus Sicht von 264 Fachpersonen in England.",
+  "result": "Vier Barrieren identifiziert: (1) Sprache und Verständnisprobleme, (2) fragmentierte Pfade und digitale Hürden, (3) begrenzte Elternkenntnis, (4) kulturelle Normen und Stigma. Unbewusste Vorurteile beeinflussen Überweisungsentscheidungen. Strategien: kulturell angepasste Kommunikation, Community-Engagement, flexible Assessment.",
+  "aufgenommen": "2026-08-25"
+ }
+]

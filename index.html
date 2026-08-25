@@ -1034,9 +1034,64 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Aug. 2026, 11:17 Uhr";
+const SNAP_DATE = "25. Aug. 2026, 11:54 Uhr";
 const SNAP_STATUS = "neu";
-const STUDIES = [];
+const STUDIES = [
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42608046",
+    author:"Kovacs R et al.", pubdate:"17.08.2026",
+    added:"17.08.2026",
+    title:"Migrantinnen und Migranten: 59% weniger Früherkennung perinataler Erkrankungen",
+    sum:"Populationsbasierte Kohorte (404.043 Mütter, 391.068 Väter) zur Ungleichheit in Früherkennung, Behandlung und Zeitverzögerung bei perinatalen Erkrankungen nach Migrationsstatus in Schweden.",
+    result:"Bei außernordisch geborenen Eltern: Erkennung 5,3 Prozentpunkte niedriger für Mütter (59% unter Baseline 9,0%), 2,5 Punkte für Väter (48% unter 5,2%). Bei Diagnose: 12,1 Punkte weniger Behandlung bei Müttern, 7,6 bei Vätern. Zeitverzögerung Diagnose–Behandlung klein.",
+    transfer:"Schweden (Sozialversicherung), vergleichbar deutsches Versicherungssystem; Datenproblem auch in Deutschland."
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42601093",
+    author:"Stannard S et al.", pubdate:"14.08.2026",
+    added:"14.08.2026",
+    title:"Frühe Schulprobleme: Kleine Reduktion späteren Angst- und Depressionsrisikos",
+    sum:"Populationsbasierte Datenverknüpfung (236.165 Jungen, 224.462 Mädchen) in Wales: Wirkung hypothetischer Interventionen (Sure Start + kostenlose Schulmahlzeiten) auf Angst/Depression im Alter 13–18.",
+    result:"2,8% der Jungen und 7,2% der Mädchen mit Angstdiagnose; 2,7% und 6,4% mit Depression. Schulische Benachteiligung (Leistung, Fehlzeiten, Ausschluss) assoziiert mit höherem Angst-/Depressionsrisiko. Hypothetische kombinierte Intervention: 0,6–1,6% absolute Reduktion Angst (Jungen), 0,3–0,5% (Mädchen); 0,4% Depression (Mädchen).",
+    transfer:"Wales, vergleichbar Deutschland; public data linkage wie SAIL nicht vorhanden."
+  },
+  {
+    journal:"Ned Tijdschr Geneeskd", year:"2026", pmid:"42614038",
+    author:"Tromp E et al.", pubdate:"13.08.2026",
+    added:"19.08.2026",
+    title:"73% der Todesfälle nach psychosozialer Meldung: Früherkennung und Koordination unzureichend",
+    sum:"Retrospektive Audit (17 Gemeinden Utrecht 2018–2024): Personen mit öffentlicher psychosozialer Meldung (n=7.172) und nachfolgende forensische Leichenöffnung (n=155).",
+    result:"73% bereits bei Meldung in einer oder mehreren Diensten bekannt; 33% mit wiederholten Meldungen. 70% der später verstorbenen starben innerhalb eines Jahres nach letzter Meldung, überwiegend nicht-natürliche Ursachen. Psychiatrische Probleme 70% der Meldungen.",
+    transfer:"Niederlande (öffentliche Gesundheit), vergleichbar Deutschland; Prävention und Koordination in Schnittstellen zentral."
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42608682",
+    author:"Oeltjen LK et al.", pubdate:"11.08.2026",
+    added:"18.08.2026",
+    title:"Peer Support in Krisendiensten reduziert Eskalation und erhöht Sicherheit",
+    sum:"Qualitative Studie mit 25 Personen, die Kriseneinsätze erlebt haben (mobil oder ambulant), zur Erfahrung von Krisenintervention mit und ohne Genesungsbegleiter.",
+    result:"Empathisches Zuhören, ruhige Kommunikation und transparente Erklärungen wurden als unterstützend beschrieben. Genesungsbegleiter wurden überwiegend positiv wahrgenommen – ihre gelebte Erfahrung vermittelte Authentizität und Hoffnung. Polizeieinsätze waren ambivalent: teils beruhigend, teils eskalierend.",
+    transfer:"Deutsche Krisendienste (Ländersache), ähnliche Struktur Bremen; Kostenträger Bundeszuschuss/Länder."
+  },
+  {
+    journal:"BMJ Ment Health", year:"2026", pmid:"42580809",
+    author:"Cooper SE et al.", pubdate:"11.08.2026",
+    added:"11.08.2026",
+    title:"Sprachbarrieren und Kulturkompetenz hindern ethnische Minderheiten an Neurodevelopmental-Diagnostik",
+    sum:"Mixed-Methods-Studie (n=264 Online-Befragung, 9 Fokusgruppen) zu Hürden beim Zugang zu ADHS/Autismus-Diagnostik für ethnische Minderheiten aus Sicht von 264 Fachpersonen in England.",
+    result:"Vier Barrieren identifiziert: (1) Sprache und Verständnisprobleme, (2) fragmentierte Pfade und digitale Hürden, (3) begrenzte Elternkenntnis, (4) kulturelle Normen und Stigma. Unbewusste Vorurteile beeinflussen Überweisungsentscheidungen. Strategien: kulturell angepasste Kommunikation, Community-Engagement, flexible Assessment.",
+    transfer:"England (NHS), ähnliche Struktur Deutschland; Kostenträger GKV, Zugang durch niedergelassene und ambulante Psychiater."
+  },
+  {
+    journal:"Int J Ment Health Nurs", year:"2026", pmid:"42591019",
+    author:"Hostrup KL et al.", pubdate:"Aug. 2026",
+    added:"13.08.2026",
+    title:"Person-zentrierte Gruppe fördert Recovery: Belonging, Hoffnung, Empowerment",
+    sum:"Qualitative Längsschnittstudie (n=17, 12-Wochen-Intervention Discovery + Guided Self-Determination, Interviews post und 3 Monate später) zur Wirkung auf Recovery-Prozess.",
+    result:"Intervention förderte persönliche Recovery über alle CHIME-Kategorien (Connectedness, Hope, Identity, Meaning, Empowerment). Peers vermittelten Zugehörigkeitsgefühl, Vertrauen, gegenseitiges Verständnis. Offenheit über psychische Erkrankung stieg. Dauerhafter Effekt nur mit weiterer professioneller Unterstützung.",
+    transfer:"Dänemark (Region Nord), ähnliche Versorgungsstruktur; Peer-Support Teil Recovery-Modelle."
+  },
+];
 // === STUDIES-BLOCK-ENDE ===
 
 // === CHIPS-BLOCK-START (themenspezifisch) ===
