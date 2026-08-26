@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42640384",
+  "journal": "Ir Med J",
+  "year": "2026",
+  "author": "Deighan O et al.",
+  "pubdate": "20.08.2026",
+  "added": "25.08.2026",
+  "transfer": "Irland, HSE-finanziertes Programm, Schnittstellenproblem zwischen Wissen und Zugang",
+  "title": "Irische Kinderpsychiater kennen Rezeptgebührenbefreiung nicht – 61% unwissend",
+  "sum": "Querschnittstudie bei 57 irischen Kinder- und Jugendpsychiatern zum Wissen über das Long-Term Illness Scheme (kostenlose Psychopharmaka).",
+  "result": "61% (35/57) waren unwissend über Alterskriterien, erstattete Medikationen oder dass nur Fachärzte einleiten dürfen. Barrieren: mangelnde Schulung, restriktive Kriterien, Burnout, administrative Last. Fachleute fehlt Wissensvermittlung zur Gebührenbefreiung.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42639837",
+  "journal": "Health Promot Int",
+  "year": "2026",
+  "author": "Griffin E et al.",
+  "pubdate": "01.07.2026",
+  "added": "25.08.2026",
+  "transfer": "Irland, nationale Postvention für Trauernde",
+  "title": "Männer nach Suizidtrauer 1,57× häufiger suizidal, Peer-Support hilft",
+  "sum": "Irische Bevölkerungsumfrage (2.413 durch Suizid Verlorene) zu psychischer Belastung, Suizidgedanken und Rolle von wahrgenommenem sozialen Support.",
+  "result": "Männer berichteten aktuell 1,57-fach höhere Suizidgedanken (95% KI 1,25–1,97), 1,31-fach Selbstverletzungsgedanken (1,09–1,57), 1,35-fach Suizidgedanken zur Trauer (1,13–1,60). Hohe wahrgenommene Unterstützung schützte beide Geschlechter vor psychischen und Suizidfolgen.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42636462",
+  "journal": "Schizophr Bull",
+  "year": "2026",
+  "author": "Georgiades A et al.",
+  "pubdate": "20.08.2026",
+  "added": "24.08.2026",
+  "transfer": "Großbritannien, Early-Intervention-Services für Psychose",
+  "title": "Maladaptive Bewältigung erhöht Rückfallrisiko in Erstpsychose um 6%",
+  "sum": "Longitudinale Studie mit 269 Erstpsychose-Patienten zu Bewältigungsstilen und Rückfall, Halluzinationen, Wahn, Funktionsfähigkeit über 12 Monate.",
+  "result": "Maladaptive Bewältigung: OR 1,06 für Rückfall in 12 Monaten (95% KI 1,00–1,12), OR 1,07 für Halluzinationen, OR 1,07 für Wahn. Adaptive Bewältigung OR 0,96 für Halluzinationen, OR 0,95 für Wahn. Machine-Learning zeigte maladaptive Bewältigung als stärkster Prädiktor (AUC 0,770).",
+  "aufgenommen": "2026-08-26"
+ },
+ {
   "pmid": "42614038",
   "journal": "Ned Tijdschr Geneeskd",
   "year": "2026",

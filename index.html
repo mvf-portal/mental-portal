@@ -1034,62 +1034,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Aug. 2026, 11:54 Uhr";
+const SNAP_DATE = "26. Aug. 2026, 07:02 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Schizophr Bull", year:"2026", pmid:"42636462",
+    author:"Georgiades A et al.", pubdate:"20.08.2026",
+    added:"24.08.2026",
+    title:"Maladaptive Bewältigung erhöht Rückfallrisiko in Erstpsychose um 6%",
+    sum:"Longitudinale Studie mit 269 Erstpsychose-Patienten zu Bewältigungsstilen und Rückfall, Halluzinationen, Wahn, Funktionsfähigkeit über 12 Monate.",
+    result:"Maladaptive Bewältigung: OR 1,06 für Rückfall in 12 Monaten (95% KI 1,00–1,12), OR 1,07 für Halluzinationen, OR 1,07 für Wahn. Adaptive Bewältigung OR 0,96 für Halluzinationen, OR 0,95 für Wahn. Machine-Learning zeigte maladaptive Bewältigung als stärkster Prädiktor (AUC 0,770).",
+    transfer:"Großbritannien, Early-Intervention-Services für Psychose"
+  },
+  {
+    journal:"Ir Med J", year:"2026", pmid:"42640384",
+    author:"Deighan O et al.", pubdate:"20.08.2026",
+    added:"25.08.2026",
+    title:"Irische Kinderpsychiater kennen Rezeptgebührenbefreiung nicht – 61% unwissend",
+    sum:"Querschnittstudie bei 57 irischen Kinder- und Jugendpsychiatern zum Wissen über das Long-Term Illness Scheme (kostenlose Psychopharmaka).",
+    result:"61% (35/57) waren unwissend über Alterskriterien, erstattete Medikationen oder dass nur Fachärzte einleiten dürfen. Barrieren: mangelnde Schulung, restriktive Kriterien, Burnout, administrative Last. Fachleute fehlt Wissensvermittlung zur Gebührenbefreiung.",
+    transfer:"Irland, HSE-finanziertes Programm, Schnittstellenproblem zwischen Wissen und Zugang"
+  },
   {
     journal:"BMJ Open", year:"2026", pmid:"42608046",
     author:"Kovacs R et al.", pubdate:"17.08.2026",
     added:"17.08.2026",
-    title:"Migrantinnen und Migranten: 59% weniger Früherkennung perinataler Erkrankungen",
-    sum:"Populationsbasierte Kohorte (404.043 Mütter, 391.068 Väter) zur Ungleichheit in Früherkennung, Behandlung und Zeitverzögerung bei perinatalen Erkrankungen nach Migrationsstatus in Schweden.",
-    result:"Bei außernordisch geborenen Eltern: Erkennung 5,3 Prozentpunkte niedriger für Mütter (59% unter Baseline 9,0%), 2,5 Punkte für Väter (48% unter 5,2%). Bei Diagnose: 12,1 Punkte weniger Behandlung bei Müttern, 7,6 bei Vätern. Zeitverzögerung Diagnose–Behandlung klein.",
-    transfer:"Schweden (Sozialversicherung), vergleichbar deutsches Versicherungssystem; Datenproblem auch in Deutschland."
+    title:"Immigrierte Eltern erhalten postpartal weniger psychische Gesundheitsversorgung",
+    sum:"Schwedische Kohortenstudie (404.043 Mütter, 391.068 Väter) zu Unterschieden in der psychischen Versorgung nach Geburt zwischen in Nordeuropa geborenen und außerhalb geborenen Eltern.",
+    result:"Außerhalb der nordischen Länder geborene Mütter hatten 5,3 Prozentpunkte niedrigere Erkennungsraten (59% unterhalb der Baseline von 9,0%), Väter 2,5 Punkte (48% unterhalb von 5,2%). Conditional auf Diagnose: Immigrantinnen 12,1 Punkte weniger wahrscheinlich behandelt, Väter 7,6 Punkte weniger.",
+    transfer:"Skandinavien, Sozialversicherungssystem, Frage nach Screeningzugang"
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42601093",
     author:"Stannard S et al.", pubdate:"14.08.2026",
     added:"14.08.2026",
-    title:"Frühe Schulprobleme: Kleine Reduktion späteren Angst- und Depressionsrisikos",
-    sum:"Populationsbasierte Datenverknüpfung (236.165 Jungen, 224.462 Mädchen) in Wales: Wirkung hypothetischer Interventionen (Sure Start + kostenlose Schulmahlzeiten) auf Angst/Depression im Alter 13–18.",
-    result:"2,8% der Jungen und 7,2% der Mädchen mit Angstdiagnose; 2,7% und 6,4% mit Depression. Schulische Benachteiligung (Leistung, Fehlzeiten, Ausschluss) assoziiert mit höherem Angst-/Depressionsrisiko. Hypothetische kombinierte Intervention: 0,6–1,6% absolute Reduktion Angst (Jungen), 0,3–0,5% (Mädchen); 0,4% Depression (Mädchen).",
-    transfer:"Wales, vergleichbar Deutschland; public data linkage wie SAIL nicht vorhanden."
-  },
-  {
-    journal:"Ned Tijdschr Geneeskd", year:"2026", pmid:"42614038",
-    author:"Tromp E et al.", pubdate:"13.08.2026",
-    added:"19.08.2026",
-    title:"73% der Todesfälle nach psychosozialer Meldung: Früherkennung und Koordination unzureichend",
-    sum:"Retrospektive Audit (17 Gemeinden Utrecht 2018–2024): Personen mit öffentlicher psychosozialer Meldung (n=7.172) und nachfolgende forensische Leichenöffnung (n=155).",
-    result:"73% bereits bei Meldung in einer oder mehreren Diensten bekannt; 33% mit wiederholten Meldungen. 70% der später verstorbenen starben innerhalb eines Jahres nach letzter Meldung, überwiegend nicht-natürliche Ursachen. Psychiatrische Probleme 70% der Meldungen.",
-    transfer:"Niederlande (öffentliche Gesundheit), vergleichbar Deutschland; Prävention und Koordination in Schnittstellen zentral."
+    title:"Frühe schulische Schwierigkeiten erhöhen Angst in Adoleszenz um 0,6%–1,6%",
+    sum:"Walisische Register-Kohortenstudie (233.329–236.165 Jugendliche je nach Outcome) zu schulischen Adversitäten in Klasse 6 und Angst-/Depressions-Diagnose im Alter 13–18; Modellierung von Sure-Start- und Schulmahlzeiten-Interventionen.",
+    result:"2,8% der Jungen, 7,2% der Mädchen Angstdiagnose; 2,7% der Jungen, 6,4% der Mädchen Depression. Höhere schulische Adversität signifikant mit erhöhter Angst assoziiert (alle Schweregrade). Hypothetische Exposition gegenüber beiden frühen Interventionen: 0,6%–1,6% absolute Reduktion Angst (Jungen), 0,3%–0,5% (Mädchen); Depressions-Reduktion nur Mädchen 0,4%.",
+    transfer:"Großbritannien, Register-Daten, Early-Intervention in Schulen"
   },
   {
     journal:"BMC Health Serv Res", year:"2026", pmid:"42608682",
     author:"Oeltjen LK et al.", pubdate:"11.08.2026",
     added:"18.08.2026",
-    title:"Peer Support in Krisendiensten reduziert Eskalation und erhöht Sicherheit",
-    sum:"Qualitative Studie mit 25 Personen, die Kriseneinsätze erlebt haben (mobil oder ambulant), zur Erfahrung von Krisenintervention mit und ohne Genesungsbegleiter.",
-    result:"Empathisches Zuhören, ruhige Kommunikation und transparente Erklärungen wurden als unterstützend beschrieben. Genesungsbegleiter wurden überwiegend positiv wahrgenommen – ihre gelebte Erfahrung vermittelte Authentizität und Hoffnung. Polizeieinsätze waren ambivalent: teils beruhigend, teils eskalierend.",
-    transfer:"Deutsche Krisendienste (Ländersache), ähnliche Struktur Bremen; Kostenträger Bundeszuschuss/Länder."
-  },
-  {
-    journal:"BMJ Ment Health", year:"2026", pmid:"42580809",
-    author:"Cooper SE et al.", pubdate:"11.08.2026",
-    added:"11.08.2026",
-    title:"Sprachbarrieren und Kulturkompetenz hindern ethnische Minderheiten an Neurodevelopmental-Diagnostik",
-    sum:"Mixed-Methods-Studie (n=264 Online-Befragung, 9 Fokusgruppen) zu Hürden beim Zugang zu ADHS/Autismus-Diagnostik für ethnische Minderheiten aus Sicht von 264 Fachpersonen in England.",
-    result:"Vier Barrieren identifiziert: (1) Sprache und Verständnisprobleme, (2) fragmentierte Pfade und digitale Hürden, (3) begrenzte Elternkenntnis, (4) kulturelle Normen und Stigma. Unbewusste Vorurteile beeinflussen Überweisungsentscheidungen. Strategien: kulturell angepasste Kommunikation, Community-Engagement, flexible Assessment.",
-    transfer:"England (NHS), ähnliche Struktur Deutschland; Kostenträger GKV, Zugang durch niedergelassene und ambulante Psychiater."
+    title:"Empathische Kommunikation in der Krisenhilfe verbessert Vertrauen und Sicherheit",
+    sum:"Qualitative Studie zur Erfahrung von 25 Personen mit psychischen Krisen bei mobilen Einsatzteams und Peer-Support-Einsatz in Bremen.",
+    result:"Empathisches Zuhören, ruhige Kommunikation und transparente Erklärungen wurden als unterstützend erlebt; Peer-Support wurde überwiegend positiv wahrgenommen, weil es Authentizität und Hoffnung vermittelte. Polizeieinsätze wurden ambivalent erlebt (teilweise beruhigend, teilweise eskalierend).",
+    transfer:"Deutschland, Bremen-Studie mit gesetzlich reguliertem Krisendienst"
   },
   {
     journal:"Int J Ment Health Nurs", year:"2026", pmid:"42591019",
     author:"Hostrup KL et al.", pubdate:"Aug. 2026",
     added:"13.08.2026",
-    title:"Person-zentrierte Gruppe fördert Recovery: Belonging, Hoffnung, Empowerment",
-    sum:"Qualitative Längsschnittstudie (n=17, 12-Wochen-Intervention Discovery + Guided Self-Determination, Interviews post und 3 Monate später) zur Wirkung auf Recovery-Prozess.",
-    result:"Intervention förderte persönliche Recovery über alle CHIME-Kategorien (Connectedness, Hope, Identity, Meaning, Empowerment). Peers vermittelten Zugehörigkeitsgefühl, Vertrauen, gegenseitiges Verständnis. Offenheit über psychische Erkrankung stieg. Dauerhafter Effekt nur mit weiterer professioneller Unterstützung.",
-    transfer:"Dänemark (Region Nord), ähnliche Versorgungsstruktur; Peer-Support Teil Recovery-Modelle."
+    title:"Person-zentrierte Gruppenintervention fördert Recovery durch Peer-Kontakt",
+    sum:"Qualitative Longitudinalstudie mit 17 Patienten zu 12-wöchiger Gruppenintervention mit Peer-Austausch und Selbstbestimmung (Discovery/Guided Self-Determination) in Aalborg, Dänemark.",
+    result:"Intervention unterstützte Recovery über alle CHIME-Faktoren (Connectedness, Hope, Identity, Meaning, Empowerment). Peer-Kontakt erzeugte Zugehörigkeit und gegenseitiges Verständnis. Teilnehmer berichteten mehr Selbstvertrauen, Hoffnung und Kontrolle; Bedarf an fortlaufender Unterstützung zur Stabilisierung.",
+    transfer:"Dänemark, ambulante Regelversorgung, Peer-Support als Ergänzung"
+  },
+  {
+    journal:"Health Promot Int", year:"2026", pmid:"42639837",
+    author:"Griffin E et al.", pubdate:"01.07.2026",
+    added:"25.08.2026",
+    title:"Männer nach Suizidtrauer 1,57× häufiger suizidal, Peer-Support hilft",
+    sum:"Irische Bevölkerungsumfrage (2.413 durch Suizid Verlorene) zu psychischer Belastung, Suizidgedanken und Rolle von wahrgenommenem sozialen Support.",
+    result:"Männer berichteten aktuell 1,57-fach höhere Suizidgedanken (95% KI 1,25–1,97), 1,31-fach Selbstverletzungsgedanken (1,09–1,57), 1,35-fach Suizidgedanken zur Trauer (1,13–1,60). Hohe wahrgenommene Unterstützung schützte beide Geschlechter vor psychischen und Suizidfolgen.",
+    transfer:"Irland, nationale Postvention für Trauernde"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
