@@ -1256,7 +1256,6 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22", "2026-09-02", 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const NEWS_STAND = "29.08.2026";
-const NEWS_MEHR = "https://www.monitor-versorgungsforschung.de/?s=psychische%20Gesundheit";
 const NEWS = [
   {titel:"Entschließung zur Psychotherapie: bvvp setzt auf Kabinettssitzung am 12. August – Koalition muss liefern!", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/entschliessung-zur-psychotherapie-bvvp-setzt-auf-kabinettssitzung-am-12-august-koalition-muss-liefern/"},
   {titel:"Jeder dritte Deutsche hält die psychische Gesundheitsversorgung für eine Herausforderungen", datum:"2026-08-03", url:"https://www.monitor-versorgungsforschung.de/news/jeder-dritte-deutsche-haelt-die-psychische-gesundheitsversorgung-fuer-eine-herausforderungen/"},
@@ -1468,15 +1467,14 @@ STUDIES.forEach(s=>{
     }
     liste.appendChild(li);
   });
-  if(typeof NEWS_MEHR !== 'undefined' && NEWS_MEHR){
-    const mehr = document.createElement('a');
-    mehr.className = 'magazin-mehr';
-    mehr.href = NEWS_MEHR;
-    mehr.target = '_blank';
-    mehr.rel = 'noopener';
-    mehr.textContent = 'Weitere Beitr\u00e4ge \u2197';
-    kasten.appendChild(mehr);
-  }
+  // Der Newsfeed von m-vf.de - dieselbe Adresse in allen zwoelf Hubs.
+  const mehr = document.createElement('a');
+  mehr.className = 'magazin-mehr';
+  mehr.href = 'https://www.monitor-versorgungsforschung.de/news/';
+  mehr.target = '_blank';
+  mehr.rel = 'noopener';
+  mehr.textContent = 'Weitere Beitr\u00e4ge \u2197';
+  kasten.appendChild(mehr);
   kasten.hidden = false;
 })();
 
