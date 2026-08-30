@@ -1175,71 +1175,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "29. Aug. 2026, 09:01 Uhr";
+const SNAP_DATE = "30. Aug. 2026, 05:54 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"PLoS Med", year:"2026", pmid:"42640878",
-    author:"Eto F et al.", pubdate:"25.08.2026",
-    added:"25.08.2026",
-    title:"Frauen nach Diabetes-Diagnose stärker für psychische Störungen gefährdet",
-    sum:"Beobachtungsstudie zu Krankheitsverlauf nach Typ-2-Diabetes-Diagnose bei 28.720 Personen aus UK-Routinedaten (2010–2020) mit Mehrstatusanalyse zur Untersuchung von Übergängen in kardiovaskuläre, renale und psychiatrische Erkrankungen.",
-    result:"Frauen zeigten nach Diabetes höhere Rate für psychische Störungen (8,1 % vs. 5,3 % bei Männern), Männer höhere Rate für Kardiovaskuläres/ESRD (8,4 % vs. 5,3 %). Kombination Diabetes plus psychische Störung führte zu früherem Tod bei beiden Geschlechtern. Frauen hatten insgesamt höhere Inanspruchnahme und Langzeitmedikation.",
-    transfer:"Großbritannien, Typ-2-Diabetes-Routinedaten, Schnittstelle somatische-psychiatrische Versorgung"
-  },
-  {
-    journal:"Sci Rep", year:"2026", pmid:"42570965",
-    author:"Lilier K et al.", pubdate:"08.08.2026",
-    added:"08.08.2026",
-    title:"Community Health Worker senken Stigma und stärken Vertrauen in Bangladesch",
-    sum:"Qualitative Studie mit 16 Tiefeninterviews und einer Fokusgruppe mit geschulten Community Health Workern in klimavulnerablen Regionen Bangladeschs zur Bereitstellung mentaler Gesundheitsunterstützung.",
-    result:"Geschulte CHWs lernten, Stigma durch kulturell angepasste Sprache zu reduzieren und Vertrauen aufzubauen. Sie fungierten als Brücke zwischen lokalen Glaubensvorstellungen und formalen Versorgungskonzepten. Training veränderte ihre Wahrnehmung psychischer Gesundheit. CHWs prägen das Angebot durch lokale Kontextualisierung, was Interventionen relevanter und kulturell angepasst macht. Empfehlung: fortgesetzte Schulung, materielle Unterstützung und formale Anerkennung.",
-    transfer:"Niedrigeinkommensland; Prinzip auf Deutschland nicht direkt übertragbar, aber Modell Peer-Support-Lot*inn*en relevant"
-  },
-  {
-    journal:"BMJ Open", year:"2026", pmid:"42556844",
-    author:"Leblanc PM et al.", pubdate:"05.08.2026",
-    added:"05.08.2026",
-    title:"Immersive Realität reduziert Stigmatisierung psychischer Erkrankungen bei Fachkräften",
-    sum:"Randomisierte kontrollierte Studie an französischen Gesundheitsberuflern und Studierenden (n=128) zu Effektivität von VR-Simulation psychotischer Symptome auf explizite und implizite Stigmatisierung gegen Schizophrenie (Baseline, sofort nach Intervention, 1-Monat-Follow-up).",
-    result:"Primäres Ergebnis: Reduktion Stigmatisierung in VR-Gruppe auf AQ-27-Skala gegenüber Kontrolle von Baseline zu 1-Monat-Follow-up (Unterschied &gt;0 erwartet). Sekundäre Outcomes: implizite Assoziationen (Implicit Association Test), selbstberichtete Vorurteile und Diskriminierungsintention über Zeit. Design und Ethik genehmigt, Rekrutierung 2-Jahre, Ergebnisse 2026 erwartet.",
-    transfer:"Frankreich, vergleichbare Krankenversicherung, Problem der Fachkräfte-Stigmatisierung betrifft deutsche Versorgung parallel"
-  },
-  {
-    journal:"J Med Internet Res", year:"2026", pmid:"42555822",
-    author:"Meyer-Keirath C et al.", pubdate:"05.08.2026",
-    added:"05.08.2026",
-    title:"Videobasierte Psychotherapie zeigt ähnliche Wirkung wie Präsenzbehandlung",
-    sum:"Systematischer Review und Metaanalyse von 12 RCTs (n=465 Patienten, 41 Effektgrößen) zum Vergleich synchroner Videobehandlung versus Präsenztherapie (mind. 500 Minuten Behandlung, max. 1/3 hybrid).",
-    result:"Keine signifikanten Unterschiede in Symptomreduktion (Hedges g=−0,09, KI −0,52 bis 0,33, p&gt;0,99). Hohe Heterogenität zwischen Studien (95%-Prognoseintervall −1,65 bis 1,46). Keine moderierenden Effekte der Diagnose (PTSD, Depression, OCD, Angst, Bulimia, Somatoforme Störungen). Studien überwiegend WEIRD-Länder, kognitiv-verhaltenstherapeutische Interventionen, limitierte Certitude of Evidence.",
-    transfer:"Europäische und deutschsprachige Teilnehmer, RCT-Design, Frage der Verfügbarmachung stationärer Kapazität"
-  },
-  {
-    journal:"Int J Circumpolar Health", year:"2026", pmid:"42554516",
-    author:"Nechaeva E et al.", pubdate:"31.12.2026",
-    added:"05.08.2026",
-    title:"Postpartumdepression-Präventionsprogramm stärkt Vorbereitung und Hilfssuche in zirkumpolarem Kontext",
-    sum:"Qualitative Studie mit 17 Schwangeren und 4 Fachkräften im Norden Russlands (Archangelsk) zu Erfahrungen mit Postpartumdepression-Präventionsprogramm und Integration in Routinevorsorge.",
-    result:"Frauen berichteten größeres Vertrauen, Zeichen der Vulnerabilität zu erkennen, Bedarf zu artikulieren und Unterstützung zu suchen. Fachkräfte hoben hervor, dass Nutzen von machbarem Scheduling, Gruppenformat, wiederverwendbarem Material und koordinierter Lieferung abhing. Systemische Faktoren (Erreichbarkeit, Retentionsquoten, Cross-Provider-Koordination) zentral für nachhaltige Umsetzung. Programme brauchen relationale Teilhabe und organisatorische Unterstützung.",
-    transfer:"Skandinavien/Osteuropa, ähnliche Saisonalitätsprobleme wie deutsche Regionen mit Personalknappheit"
-  },
-  {
-    journal:"JAMA Netw Open", year:"2026", pmid:"42664008",
-    author:"Schefft C et al.", pubdate:"03.08.2026",
+    journal:"PLoS One", year:"2026", pmid:"42664181",
+    author:"Albers PN et al.", pubdate:"28.08.2026",
     added:"28.08.2026",
-    title:"Depression schwerer, Nutzen von Internettherapie größer",
-    sum:"Studie zur Vorhersage des Behandlungserfolgs von iCBT bei Depression in Deutschland und Österreich basierend auf Daten von 1.589 erwachsenen Patienten aus fünf randomisierten Studien (2012–2023).",
-    result:"Höhere initiale Depressionsschwere war mit stärkerem Nutzen der iCBT assoziiert (pro Punkt mehr: 0,16 Verbesserung im PHQ-9, KI 0,06–0,25). Ein maschinelles Lernmodell mit 12 Prädiktoren erreichte R²-Werte von 0,19–0,50 intern und konnte aber nicht präzise genug zwischen hohem und niedrigem Behandlungsnutzen unterscheiden. Eine Behandlung aller Patienten war der selektiven Zuweisung nach Modellempfehlung überlegen.",
-    transfer:"Deutschland und Österreich, vergleichbare Sozialversicherungssysteme, ambulante Routineversorgung"
+    title:"Schulkinder mit schlechter psychischer Gesundheit brauchen mehr schulische Unterstützung",
+    sum:"Querschnittsstudie zu psychischer Gesundheit und Schulanbindung bei 5193 Schülern (12–15 Jahre) in Großbritannien zur Identifizierung von Interventionsbereichen.",
+    result:"40 % berichteten niedrige Lebenszufriedenheit, 33 % schwere depressive Symptome, nur 47 % gefühlszugehörigkeit zu Schule. Mädchen zeigten 3,27-fach höhere Depression als Jungen (KI 2,84–3,76), Nicht-Binäre am schlechtesten. Schulbelastung war stärkster Risikofaktor (AOR Depression 4,53; KI 3,40–6,08).",
+    transfer:"UK-Schuldaten, ähnliche Versorgungsherausforderungen wie Deutschland"
   },
   {
-    journal:"Age Ageing", year:"2026", pmid:"42574741",
-    author:"Walbaum M et al.", pubdate:"03.08.2026",
-    added:"10.08.2026",
-    title:"Dementia Navigatoren: Modellierung zeigt Kosteneffizienz und Skalierbarkeit",
-    sum:"Modellierungsstudie der englischen Primärversorgung: Hochrechnung von Anzahl der berechtigen Demenzbetreuten für Unterstützung durch Dementia Navigators 2025–2030, Kostenberechnung basierend auf NHS-Daten und beobachtete Ersparnisse aus US Care-Ökosystem-Studie (Probabilistische Sensitivitätsanalyse).",
-    result:"Zahl berechtigter Personen für Navigator-Unterstützung: 300.000 (2025) → 360.000 (2030). Erforderliche Link Worker: 940–1.120. Jährliche Kosten: £224 Mio. (2025) → £343 Mio. (2030). Geschätzte Ersparnisse: £1.140 Mio. (2025) → £1.750 Mio. (2030). Netto-Ersparnis auch unter konservativen Annahmen. Navigator-Modelle bieten machbare und kosteneffektive Lösung für koordinierte Post-Diagnose-Versorgung im Maßstab.",
-    transfer:"Großbritannien, Primary-Care-System; Schnittstelle Hausarztpraxis–Spezialisierte Versorgung relevant für Deutschland"
+    journal:"Trials", year:"2026", pmid:"42665851",
+    author:"Swanson L et al.", pubdate:"28.08.2026",
+    added:"28.08.2026",
+    title:"Metacognitive Training reduziert Negativsymptome in Schizophrenie-Pilot",
+    sum:"Protokoll für pragmatische RCT von MCT-Minus versus Supportive Counselling bei 90 Personen mit Psychosen zur Reduktion von Negativsymptomen, Stigma und Verbesserung der Metakognition.",
+    result:"Studienprotokoll beschreibt das Design (90 Teilnehmer, randomisiert zu MCT-Minus oder SC, primärer Endpunkt: Negativsymptome CAINS). Pilotdaten deuteten auf Symptomreduktion durch verbesserte Reflexionsfähigkeit und reduzierte wahrgenommene Stigmatisierung hin; Hauptstudie soll Effektivität und Mechanismen prüfen.",
+    transfer:"Schweden, vergleichbares Versicherungssystem"
+  },
+  {
+    journal:"BMC Med Ethics", year:"2026", pmid:"42665829",
+    author:"Binder A et al.", pubdate:"28.08.2026",
+    added:"28.08.2026",
+    title:"Ethische Konflikte beim Opioid-Diversion in Kliniken erkennen und bewältigen",
+    sum:"Multinationaler qualitativer Studienprotokoll zu ethischen Konflikten von Gesundheitsfachpersonen bei Opioid-Diversion mittels semi-strukturierter Interviews und reflexiver thematischer Analyse.",
+    result:"Protokoll definiert Studie mit Fokus auf moralische Dilemmata, Barrieren zum Suchen von Hilfe und Unterschiede zwischen Gesundheitssystemen. Ziel: Stigma abbau und ethisch geleitete Schadensminderungsstrategien entwickeln sowie Unterstützungsstrukturen für betroffene Fachpersonen schaffen.",
+    transfer:"Deutschland, international vergleichbar, Systemübergreifende Perspektive"
+  },
+  {
+    journal:"Eur J Psychotraumatol", year:"2026", pmid:"42635370",
+    author:"Beer R et al.", pubdate:"24.08.2026",
+    added:"24.08.2026",
+    title:"EMDR-Therapie für Kinder im Krieg zeigt große Symptomreduktion",
+    sum:"Evaluation von EMDR-Therapie für Kinder und Jugendliche in der Ukraine während des laufenden Krieges zur Reduktion von PTBS-Symptomen.",
+    result:"151 Kinder und Jugendliche (Alter 1–17 Jahre) zeigten nach EMDR signifikante Reduktionen der PTBS-Symptome mit großen Effektstärken (DSM-5: d = 1,83 Selbstbericht, d = 1,93 Elternbericht; ICD-11 komplexe PTBS: d = 1,63–1,74). Effekte blieben in Folgemessungen bestehen.",
+    transfer:"Ukraine unter Kriegsbedingungen, externe Validität begrenzt auf Krisen-Settings"
+  },
+  {
+    journal:"Schizophr Bull", year:"2026", pmid:"42667247",
+    author:"Rohde C et al.", pubdate:"20.08.2026",
+    added:"29.08.2026",
+    title:"Schizophrenia mit verzögerter Diabetesbehandlung verringert Überlebenschancen",
+    sum:"Register-Studie aus Dänemark zu Verzögerungen bei der Einleitung von Glukose-senkender Therapie bei Personen mit Schizophrenie nach Erkennung erhöhter Glukosewerte.",
+    result:"Bei 1527 Personen mit Schizophrenie verzögerte sich die Einleitung der Diabetes-Behandlung um 12 % (HRR = 0,88; KI 0,81–0,94) versus 7492 Kontrollen. Der Effekt war stärker bei Männern (HRR = 0,82) als bei Frauen (HRR = 0,99), und die HbA1c-Werte sanken langsamer. Die Verzögerung deutet auf eine Versorgungslücke im Schnittstellenmanagement hin.",
+    transfer:"Dänische Registerdaten, vergleichbares Gesundheitssystem"
+  },
+  {
+    journal:"Health Expect", year:"2026", pmid:"42578502",
+    author:"Readman MR et al.", pubdate:"Aug. 2026",
+    added:"11.08.2026",
+    title:"Dementia Villages stärken Person-Centered Care durch Erinnerungen und Aktivitäten",
+    sum:"Qualitative Studie zu Auswirkungen des UK's ersten Day-Center Dementia Village auf Erfahrungen von Personen mit Demenz und Personal, basierend auf 22 semi-strukturierten Interviews.",
+    result:"Drei zentrale Themen: (1) Sehen der Person dahinter, (2) bedeutungsvolle Aktivität und Engagement, (3) Faktoren der Beteiligung. Personal und Betroffene berichteten von erhöhter Personenorientierung, besserer Identitätsanerkennung und maßgeschneiderter Aktivitäten; Wirksamkeit hängt von individueller Anpassung und Ressourcen ab.",
+    transfer:"UK, übertragbar auf deutsche Tagesstrukturen in der Demenzversorgung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1255,7 +1246,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22", "2026-09-02", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "29.08.2026";
+const NEWS_STAND = "30.08.2026";
 const NEWS = [
   {titel:"Entschließung zur Psychotherapie: bvvp setzt auf Kabinettssitzung am 12. August – Koalition muss liefern!", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/entschliessung-zur-psychotherapie-bvvp-setzt-auf-kabinettssitzung-am-12-august-koalition-muss-liefern/"},
   {titel:"Internetabhängigkeit und Essstörungen nehmen deutlich zu – Kinder- und Jugendpsychiatrien unter erheblichem Druck", datum:"2026-08-03", url:"https://www.monitor-versorgungsforschung.de/news/internetabhaengigkeit-und-essstoerungen-nehmen-deutlich-zu-kinder-und-jugendpsychiatrien-unter-erheblichem-druck/"},
