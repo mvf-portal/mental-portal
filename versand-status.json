@@ -27,21 +27,15 @@
   "42555822",
   "42554516"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098633",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098645",
  "termin_utc": "2026-08-31T08:00:00+00:00",
  "empfaenger": 1,
  "listengroesse": 5904,
  "beanstandungen": [],
  "aussortiert": [],
- "pool": {
-  "geholt": 220,
-  "bekannt": 46,
-  "pool": 51,
-  "gewaehlt": 6,
-  "neu": 6
- },
+ "pool": {},
  "rubriken": {
-  "radar": "3aabc7c2fefca303",
+  "radar": "705b7c0c22099d01",
   "news": "0ea2474493263bbe"
  }
 }
