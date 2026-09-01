@@ -2,6 +2,7 @@
   "_": "Themenprofil Psychische Gesundheit - zwoelftes Portal. Machbarkeit am 25.08.2026 mit machbarkeit.py gemessen: 10.865 Arbeiten in zwoelf Monaten (29,8 pro Tag), 2.086 mit Europabezug (19 Prozent), 741 mit Deutschlandbezug - mehr deutsches Material als jeder andere Kandidat der Runde. Ueberschneidung 12,4 Prozent, groesste Nachbarn KI 2,9, Gender 2,8 und Pflege 2,6 Prozent. Das Feld waechst: 6.483 (2022), 6.562 (2023), 9.348 (2024), 12.742 (2025). DER ZUSCHNITT IST DIE GANZE ARBEIT GEWESEN: Krankheitsbegriffe als [Majr] allein ergeben 46.315 Arbeiten (126,9 pro Tag) und eine Titelprobe aus reiner klinischer Psychiatrie; nur die Dienste ergeben 7.040 (19,3 pro Tag); Versorgungsbegriffe im Titel brachten zusaetzlich nur 75 Arbeiten und wurden wieder gestrichen. Tragfaehig ist allein die Verknuepfung Stoerung UND Versorgung, beides als HAUPTschlagwort - [Majr] statt [MeSH Terms] ist der Hebel. Datenbanken am 25.08.2026 mit linkpruefung.py geprueft, die Zweifelsfaelle mit ZWEI ECHTEN Suchbegriffen ('Depression' und 'Suizid'): DGPPN, Deutsche Depressionshilfe, BApK und Mental Health Foundation unterschieden sich nur um wenige Byte und stehen deshalb als Portal-Kachel.",
   "_STAMMDATEN": "mental.m-vf.de - kurze englische Adresse wie healthliteracy, deutscher Titel.",
   "DOMAIN": "mental.m-vf.de",
+  "HUB": "mental",
   "REPO": "mvf-portal/mental-portal",
   "TITEL": "Knowledge-Hub Psychische Gesundheit",
   "TITEL_KURZ": "Psychische Gesundheit",
