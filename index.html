@@ -1538,71 +1538,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Okt. 2026, 06:26 Uhr";
+const SNAP_DATE = "4. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Early Interv Psychiatry", year:"2026", pmid:"42823639",
-    author:"Haruguchi K et al.", pubdate:"Okt. 2026",
+    journal:"JAMA Netw Open", year:"2026", pmid:"42821264",
+    author:"Li Q et al.", pubdate:"01.10.2026",
+    added:"01.10.2026",
+    title:"Tägliche Schrittanzahl und mentale Gesundheit: Strukturelle Hirnveränderungen mediieren den Effekt",
+    sum:"Kohortenstudie von 5.515 Jugendlichen aus dem US-amerikanischen ABCD-Study, die den Zusammenhang zwischen Schrittzahl (über Pedometer gemessen) und psychischen Problemen sowie Hirnstruktur mittels MRT untersucht und strukturelle Vermittlung testet.",
+    result:"Höhere tägliche Schrittanzahl assoziiert mit niedrigeren Gesamtproblemen der psychischen Gesundheit (B=−0,080, t=−5,497, p&lt;0,001) und größerer kortikaler Dicke in Paracentral- (B=0,057, p&lt;0,001) und rostral anteriorer Zingulum-Region (B=0,052, p=0,001). Paracentrale Verdickung mediierte signifikant die Assoziation zwischen höherer Schrittanzahl und weniger psychischen Problemen ein Jahr später. Dose-Response-Beziehung ohne Schwellenwerteffekt.",
+    transfer:"USA, ABCD-Studie; neurobiologischer Mechanismus international relevant, aber Gesundheitssystem-Transfer begrenzt"
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42816075",
+    author:"Hameed W et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"Geburtsbegleitung und mütterliche psychische Gesundheit: vielversprechende Evidenz aus Low-Middle-Income-Ländern",
+    sum:"Systematischer Review von 10 Studien (6 Beobachtungs-, 4 experimentell) zur Assoziation zwischen persönlichen Geburtsbegleiterinnen und mütterlicher psychischer Gesundheit während Geburt und postpartal in Low-Middle-Income-Ländern, überwiegend Südasien.",
+    result:"Experimentalstudien zeigten vorteilhafte Effekte persönlicher Geburtsbegleitung (insbesondere durch Partner) auf mütterliche psychische Gesundheit, mit Angstsymptomen um 0,85–120% reduziert (meist p&lt;0,001); Depressionseffekte weniger konsistent (4,5–22,8%, nicht signifikant). Beobachtungsstudien zeigten weniger konsistent signifikante Befunde. Evidenzqualität limitiert durch Heterogenität und Studiendesign.",
+    transfer:"Low-Middle-Income-Länder, begrenzte Übertragbarkeit auf deutsches Setting mit anderen Geburtskontexten"
+  },
+  {
+    journal:"Med Educ Online", year:"2026", pmid:"42811501",
+    author:"Pereira-Lima K et al.", pubdate:"31.12.2026",
+    added:"30.09.2026",
+    title:"Behinderung und Symptomerkennung: Assistenzärzte mit Behinderung suchen früher psychische Hilfe",
+    sum:"Sekundäranalyse der Intern Health Study (Kohorten 2020–2022) mit 940 Assistenzärztinnen/Assistenzärzten mit positivem Depressions-Screening (PHQ-9≥10), die Assoziation zwischen Behinderungsstatus, Symptomerkennung und Behandlungssuche untersucht.",
+    result:"Von 1.386 gescreenten positiv (27,4%) identifizierten 940 ihren Behinderungsstatus; 127 (13,5%) berichteten Behinderungen. Assistenzärzte mit Behinderungen waren signifikant wahrscheinlicher, psychische Symptome zu erkennen (gewichtete adjustierte OR 4,5, 95%-KI 1,8–14,7) und Hilfe zu suchen (gewichtete adjustierte OR 3,2, 95%-KI 2,1–5,0). Ergebnisse blieben signifikant ohne psychologische Behinderungen. Behinderung assoziiert mit verringerter Normalisierung depressiver Symptome und reduzierter Stigmatisierung.",
+    transfer:"USA, Assistenzausbildungskontext; Befund zur Stigmaabbau-Strategie international relevant"
+  },
+  {
+    journal:"Int J Qual Stud Health Well-being", year:"2026", pmid:"42800014",
+    author:"Sæle RG et al.", pubdate:"31.12.2026",
+    added:"26.09.2026",
+    title:"Studentenwohlbefinden in extremer Isolation: Psychosoziale Vulnerabilität trotz guter Lernbedingungen",
+    sum:"Qualitative Studie an einer Universität in der Arktis (UNIS) mit Interviews und Fokusgruppen zu Wahrnehmung von Wohlbefinden und Lernen durch Studierende und Personal in extremem, isoliertem Lernumfeld.",
+    result:"Vier Themen identifiziert: arktische Isolation, Natur als Lernumgebung, Zugehörigkeitsgefühl und erweiterte Rollen. Teilnehmende berichteten enge Studierenden-Personal-Bindungen und hohe Motivation, gleichzeitig aber geografische Isolation, begrenzte lokale psychische Gesundheitsdienste und Mitarbeitende in erweiterten Betreuungsrollen ohne formale Schulung. Bedarf an Vor-Ort-Psychologie-Diensten und gezielter Personalentwicklung identifiziert.",
+    transfer:"Nordeuropa, extreme Kontexte; Prinzipien auf ländliche/unterversorgte deutsche Regionen anwendbar"
+  },
+  {
+    journal:"BMC Psychiatry", year:"2026", pmid:"42827247",
+    author:"Starke F et al.", pubdate:"24.09.2026",
     added:"02.10.2026",
-    title:"Antipsychotika-Polypharmaka bei Jugendlichen: Gewalt statt Schwere treibt Mehrfachtherapie",
-    sum:"Retrospektive Analyse von 229 hospitalisierten Patienten unter 25 Jahren mit Psychose: Antipsychotic Polypharmacy (14%) wurde untersucht auf unabhängige Vorhersagefaktoren und Wiederaufnahmequoten nach Entlassung.",
-    result:"Gewaltgeschichte war der einzige unabhängige Prädiktor für Polypharmaka (OR=3,30, 95% CI [1,28-8,52]). Polypharmaka war NICHT mit höherer Einjahres-Wiederaufnahmequote assoziiert (kein signifikanter Unterschied in Kaplan-Meier-Analyse). Befund widerlegt die Annahme, dass Polypharmaka bei hochrisikojungen Patienten zu schlechteren kurzfristigen Outcomes führt.",
-    transfer:"USA - Hospital der Lehrmedizin, aber Befund zu akutem Risiko unabhängig vom System"
+    title:"Rückkehr zur Arbeit nach psychischer Erkrankung: intensivierte Nachsorge ohne Effekt auf Nachhaltigkeit",
+    sum:"Randomisierte Kontrollstudie an 484 Erwerbstätigen mit psychischer Erkrankung in deutschen Psychiatrieambulanzen, die untersucht, ob ein 18-monatiges multimodales Nachsorgeprogramm (RTW-PIA) zusätzlich zur Standardbetreuung die nachhaltige Rückkehr zur Arbeit verbessert.",
+    result:"Die RTW-PIA führte zu keinem signifikanten Effekt auf nachhaltige Rückkehr zur Arbeit (OR 1,38, 95%-KI 0,89–2,12). Sekundäre Outcomes zeigten konsistent geringe Verbesserungen zugunsten RTW-PIA, waren aber nicht signifikant. In Subgruppenanalysen profitierten Personen mit rezidivierender Depression in einigen sekundären Outcomes von der Intervention.",
+    transfer:"Deutsche Klinikdaten, prospektiv registrierte RCT, vergleichbare Arbeitsmarktkontexte"
   },
   {
-    journal:"Fam Med Community Health", year:"2026", pmid:"42823108",
-    author:"Gulline H et al.", pubdate:"01.10.2026",
-    added:"01.10.2026",
-    title:"Hausarztbarriered für Demenzdiagnose: Zeit, Wissen, Pfade",
-    sum:"Qualitative Studie mit 33 semistrukturierten Interviews von Patienten und Angehörigen, die den prädiagnostischen Weg durchlaufen hatten, zur Identifikation von Faktoren, die Hausärzte bei der Überweisungsentscheidung beeinflussen.",
-    result:"Barrieren für frühzeitige Diagnose: Zeitmangel von Hausärzten, fehlende Demenzspezifische Kenntnisse, inkonsistente Überweisungswege. Erfolgreiche Pfade erforderten wirksame Kommunikation von Symptomen durch Patienten, Unterstützung durch Angehörige und Hausarztentscheidung zur Überweisungsempfehlung an Fachärzte.",
-    transfer:"Australien, Allgemeinpraxis - vergleichbar mit deutschem Hausarzt-Überweisungsmodell"
-  },
-  {
-    journal:"BMJ Open", year:"2026", pmid:"42816094",
-    author:"Andersson N et al.", pubdate:"30.09.2026",
-    added:"30.09.2026",
-    title:"Partizipative Demenzprävention durch Community Engagement in Botswana und Montreal",
-    sum:"Pilotiertes randomisiertes Kontrolldesign (Botswana Cluster, Montreal individuell), in dem sozial isolierte Erwachsene ab 65 Jahren an sechsstufigen Partizipationsprozessen teilnahmen zur Förderung der Exekutivfunktion und kognitiven Gesundheit.",
-    result:"Studienprotokoll: Ziel 100 Teilnehmer pro Standort. Primäre Outcome: Exekutivfunktion (Frontal Assessment Battery). Follow-up: Baseline, 18 Monate, 33 Monate. Studiendesign und Rekrutierung abgeschlossen, Ergebnisse ausstehend (Publikation erwartet 2028). Partizipative Elemente als Umsetzung eines Präventionsansatzes bei Isolation.",
-    transfer:"Kanada und Botswana - Ansatz der Partizipation übertragbar, aber Ressourcenlage unterschiedlich"
-  },
-  {
-    journal:"Glob Public Health", year:"2026", pmid:"42815453",
-    author:"Jordens J et al.", pubdate:"31.12.2026",
-    added:"30.09.2026",
-    title:"Freiwillige Community-Drogenbhandlung statt Zwangshaft in Vietnam: Khánh Hoà Modell",
-    sum:"Fallstudie des Khánh Hoà Modells zur Umsetzung freiwilliger, gemeindebasierter Drogenbhandlung (VCBT) 2013–2017 als Reform gegen 60.000 jährliche Zwangshaftungen in Compulsory Drug Detention Centres.",
-    result:"Das Modell entstand durch Kooperation von Regierungs- und Nicht-Regierungs-Akteuren. Erfolgsfaktoren: Regierungsaufmerksamkeit in Pilot-Phase, Alignment mit Renovation Plan, Aufbau von Community-Services. Grenzen: Entrenched Detention System, begrenzte dokumentierte Verweisquoten. Wechsel von moralischem zu gesundheitlichem Rahmen für Drogenkonsum teilweise erfolgreich.",
-    transfer:"Vietnam, Übergangsland - Zwangsentzug ist deutsche Versorgungsrealität nicht, aber Delinquenzstrukturierung relevant"
-  },
-  {
-    journal:"JMIR Res Protoc", year:"2026", pmid:"42789363",
-    author:"de Lange IGS et al.", pubdate:"25.09.2026",
-    added:"25.09.2026",
-    title:"Präventive Kognitiv-Therapie nach Hochfrequenz-Magnetstimulation bei Depression",
-    sum:"Pilotstudie zur Machbarkeit (Feasibility) von Präventiver Kognitiv-Therapie (PCT) in zwei Formaten (online vs. face-to-face) nach rTMS-Behandlung bei teilweise remittierten Patienten mit Depression.",
-    result:"Protokoll: 20 Teilnehmer, randomisiert zu online vs. face-to-face PCT. Machbarkeitskriterium: ≥75% Therapievollendung in 1,5 Jahren. Datenerhebung August 2024 – April 2026 abgeschlossen (11 Teilnehmer eingeschlossen). Datenanalyse erwartet Dezember 2026. Sekundär: Rückfallmonitorierung und affektive Zustände via Experience Sampling.",
-    transfer:"Niederlande, spezialisierte Psychiatrie - rTMS ist deutsche Kassenleistung, aber PCT-Evidenz limitiert"
-  },
-  {
-    journal:"Prim Care Companion CNS Disord", year:"2026", pmid:"42821629",
-    author:"Alim T et al.", pubdate:"24.09.2026",
-    added:"01.10.2026",
-    title:"Patientensicht auf Langzeitinjektionen während stationärer psychiatrischer Behandlung",
-    sum:"Prospektive Observationsstudie mit 30 erwachsenen freiwillig hospitalisierten Patienten zu deren Perspektiven, Erfahrungen und Behandlungspräferenzen bezüglich Langzeit-Depotinjektionen (LAI).",
-    result:"73% hatten keine vorherige LAI-Erfahrung (n=22). Von 7 mit Voxerfahrung: 2 hilfreich (29%), 2 neutral, 2 nicht hilfreich. Zur aktuellen Präferenz: 33% bevorzugten Tabletten (n=10), 33% würden LAI erwägen (n=10), 27% unsicher und wollten Team besprechen (n=8). Befund: Heterogene, nicht-feindselige Haltungen mit hoher Offenheit für shared decision-making.",
-    transfer:"USA, Safety-Net-Hospital - Ansatz zu Patientenpräferenzen für Depot-Optionen übertragbar"
-  },
-  {
-    journal:"Curr Med Res Opin", year:"2026", pmid:"42669177",
-    author:"Harrsen K et al.", pubdate:"30.08.2026",
-    added:"30.08.2026",
-    title:"Langzeitdepotinjektionen verbessern Adhärenz und senken stationäre Tage bei Schizophrenie",
-    sum:"Retrospektive Real-World Studie (USA Anspruchsdaten): 153 Patienten mit Übergang von oralen Antipsychotika zu Aripiprazol-Monohydrat 2-monatlich, 526 von monatlich zu 2-monatlich; Mess Adhärenz (PDC, MPR) und Gesundheitsnutzung (Hospitalisierungen, stationäre Tage).",
-    result:"Nach Übergang von oral zu 2-monatlich (n=153): PDC +21,3%, MPR +24,6%, adhärente Patienten +59,2% (alle p&lt;0,001); stationäre Besuche 0,67→0,28, Verweildauer 2,63→1,05 Tage (p=0,008–0,019). Von monatlich zu 2-monatlich (n=526): PDC +38,8%, MPR +36,6%, Adhärenz +47,9% (alle p&lt;0,001); Verweildauer 1,05→0,64 Tage (p=0,047). Längere Injektionsintervalle senken Wiederaufnahmerisiko messbar.",
-    transfer:"USA Klaimbasis - Grundbefund zu Depot-Adhärenz international relevant, deutsche Nutzungsdaten anderer"
+    journal:"BMC Psychiatry", year:"2026", pmid:"42827245",
+    author:"El Tawil N et al.", pubdate:"31.07.2026",
+    added:"02.10.2026",
+    title:"Narrative Expositionstherapie für Kriegsflüchtlinge: Evidenz bleibt heterogen und limitiert",
+    sum:"Scoping Review von 24 Studien (7 primär, 17 sekundär) zu Narrative Exposure Therapy (NET/KIDNET) bei kriegsbetroffenen Flüchtlingen aus dem Nahen Osten, das Behandlungsergebnisse, Durchführungskontexte und Implementierungslücken erfasst.",
+    result:"Alle eingeschlossenen Studien zeigten potenzielle Vorteile von NET. PTSD-Symptome reduzierten sich signifikant; Effekte auf Depression und Angst waren limitiert. Die Evidenz wird durch heterogene Studiendesigns, kurze Follow-up-Perioden und unzureichende kulturelle Anpassung begrenzt.",
+    transfer:"Flüchtlingsversorgung international, begrenzte Übertragbarkeit auf deutsche Strukturen, aber relevant für Asylbewerberversorgung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1618,7 +1609,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20"], [], ["2026-10-28", "2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.10.2026";
+const NEWS_STAND = "04.10.2026";
 const NEWS = [
   {titel:"AOK Rheinland/Hamburg: Digitale Nachsorge bei Depression wird fortgeführt", datum:"2026-09-30", url:"https://www.monitor-versorgungsforschung.de/news/aok-rheinland-hamburg-digitale-nachsorge-bei-depression-wird-fortgefuehrt/"},
   {titel:"Suizidprävention: BDP fordert Bundesfachstelle und Nachbesserungen", datum:"2026-09-09", url:"https://www.monitor-versorgungsforschung.de/news/suizidpraevention-bdp-fordert-bundesfachstelle-und-nachbesserungen/"},
