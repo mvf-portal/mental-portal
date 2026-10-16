@@ -1,34 +1,34 @@
 {
  "hub": "Knowledge-Hub Psychische Gesundheit",
  "domain": "mental.m-vf.de",
- "datum": "2026-10-15",
+ "datum": "2026-10-16",
  "stand": "terminiert",
- "titel": "MVF Mental-Newsletter 15.10.2026",
- "betreff": "Neueste Studien - Psychische Gesundheit – 15. Oktober 2026",
+ "titel": "MVF Mental-Newsletter 16.10.2026",
+ "betreff": "Neueste Studien - Psychische Gesundheit – 16. Oktober 2026",
  "anzahl": 6,
  "pmids": [
-  "42874602",
-  "42873157",
-  "42871138",
-  "42870241",
-  "42863900",
-  "42863890"
+  "42878508",
+  "42878207",
+  "42868189",
+  "42865917",
+  "42865113",
+  "42710441"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099410",
- "termin_utc": "2026-10-15T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099431",
+ "termin_utc": "2026-10-16T08:00:00+00:00",
  "empfaenger": 11,
- "listengroesse": 5879,
+ "listengroesse": 5881,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 133,
-  "pool": 40,
+  "bekannt": 137,
+  "pool": 42,
   "gewaehlt": 6,
   "neu": 6
  },
  "rubriken": {
-  "radar": "ce207939830e5a8d",
+  "radar": "7e11bf545115ea86",
   "news": "09c8b3755e9b60f3"
  }
 }
