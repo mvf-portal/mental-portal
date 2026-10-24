@@ -62,5 +62,6 @@
   "N_LIZENZ": "5",
   "N_RUBRIKEN": "9",
   "N_GLOSSAR": "92",
-  "CRON_MIN": "47"
+  "CRON_MIN": "47",
+  "HUB_HINWEIS_HTML": "<b>Sie brauchen jetzt Hilfe?</b> Die TelefonSeelsorge ist rund um die Uhr erreichbar, kostenfrei und anonym: <a href=\"tel:08001110111\">0800 111 0 111</a> oder <a href=\"tel:08001110222\">0800 111 0 222</a>. Im Notfall: <a href=\"tel:112\">112</a>."
 }
