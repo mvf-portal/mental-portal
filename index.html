@@ -2058,53 +2058,17 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "27. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Clin Interv Aging", year:"2026", pmid:"42927343",
-    author:"Kheirkhah Z et al.", pubdate:"20.10.2026",
-    added:"25.10.2026",
-    title:"Achtsamkeit reduzierte Bewegungsangst bei älteren Patienten mit Kniearthrose",
-    sum:"Randomisierte kontrollierte Studie mit 56 älteren Patienten (Iran, 2024): Interventionsgruppe erhielt 8 Sitzungen à 90 Minuten Mindfulness-Based Cognitive Therapy, Kontrollgruppe Routineversorgung; gemessen wurde Kinesiophobia mit Tampa Scale for Kinesiophobia (TSK11) zu Baseline, Woche 4 und Woche 8.",
-    result:"Interventionsgruppe: Kinesiophobia-Score fiel von 29,46±3,81 auf 25,68±3,22 in Woche 8; Kontrollgruppe von 28,64±4,78 auf 26,68±5,15. Signifikante Gruppe-x-Zeit-Interaktion (Wilks Λ=0,88; F(2,50)=3,34; p=0,040; ηp²=0,11). Angepasste Differenz baseline zu Woche 8: –1,60 Punkte (95%-KI –3,25 bis 0,05; p=0,05), grenzt an Signifikanz. Innerhalb-Gruppe-Vergleiche zeigten in Interventionsgruppe signifikante Reduktion über alle Zeitintervalle (p&lt;0,001).",
-    transfer:"Iran – keine direkten Strukturparallelen, aber Befund zur psychologischen Intervention bei älteren Menschen mit somatischen Erkrankungen methodisch valide."
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42921510",
-    author:"Salvador-Carrillo J et al.", pubdate:"09.10.2026",
-    added:"24.10.2026",
-    title:"Psychopharmaka-Verordnungen während und nach COVID-19 in Peru schwankend",
-    sum:"Unterbrochene Zeitreihenanalyse von 6.151 stationären Patienten mit psychiatrischen Diagnosen in einem peruanischen Allgemeinkrankenhaus September 2020 bis Dezember 2024 zur Abbildung von Verordnungstrends.",
-    result:"Gesamtrate psychotroper Verordnungen post-Pandemie höher als während Pandemie (1.308 vs. 1.254 pro 1.000 Konsultationen; p=0,023). Phase 1 (nach erster Welle): signifikanter Abwärtstrend (β=–25,53; 95%-KI –43,82 bis –7,01; p=0,007). Phase 2 (zweite Welle): abrupter Anstieg um 295,53 Punkte (p=0,014) und Trendumkehr (p=0,016). Antidepressiva zeigten ähnliches Muster, Anxiolytika transienten Anstieg, Antipsychotika stabil.",
-    transfer:"Peru – Middle-Income-Land mit Dokumentationsproblematiken, Struktur unterscheidet sich von deutschem Versorgungssystem."
-  },
-  {
-    journal:"J Rural Health", year:"2026", pmid:"42924567",
-    author:"Parikh RR et al.", pubdate:"Sept. 2026",
-    added:"24.10.2026",
-    title:"Ländliche Demenz-Patienten melden dreimal mehr ungedeckte Versorgungsbedarfe",
-    sum:"Querschnittsstudie aus National Core Indicators-Survey (2016–2019) mit 14.645 älteren Einwohnern in 23 US-Bundesstaaten, stratifiziert nach Demenzstatus und ländlich-urbaner Herkunft zu ungedeckten Bedarfen für Dienste im häuslichen und gemeindlichen Bereich.",
-    result:"Bei Menschen mit Demenz: ungedeckte Versorgungsbedarfe in ländlichen Räumen 44,8% vs. 30,7% in Metropolen (OR 1,83; 95%-KI 1,11–3,04). Kleinstädte 36,3% (OR 1,44; 0,97–2,13), Mikropolen 35,4% (OR 1,32; 0,98–1,77). Umgekehrtes Muster ohne Demenz. Signifikante Disparität für vulnerable Gruppe.",
-    transfer:"USA – Versorgungsstruktur grundlegend anders, aber Befund zur ländlichen Benachteiligung übertragbar auf Deutschland."
-  },
-  {
-    journal:"J Consult Clin Psychol", year:"2026", pmid:"42911789",
-    author:"Moggia D et al.", pubdate:"Sept. 2026",
-    added:"23.10.2026",
-    title:"Drei Verlaufsmuster für therapiegefährdete Patienten identifiziert",
-    sum:"Analyse von 573 Patienten, die in Feedback-gestützter Psychotherapie an einer Universitätsklinik als ‚nicht-auf-Spur' (NOT) flaggt wurden; Growth-Mixture-Modeling identifizierte Verlaufsmuster, multinomiale logistische Regression prädizierten diese anhand Intake-Variablen.",
-    result:"Drei Verlaufsmuster: C1 schwerwiegend-bescheidene Verbesserer (symptomatisch schwer bei Flaggung, dann moderat besser), C2 schwerwiegend-schnelle Verbesserer (schwer bei Flaggung, dann schnell besser), C3 moderat-verbesserer. Muster unterschieden sich bei Symptomgewichtung, Persönlichkeitsstörungs-Merkmalen, interpersonalen Problemen und Emotionsregulationsschwierigkeiten. Zwei Muster mit akzeptabler Genauigkeit vorhersagbar. Alle Subgruppen zeigten Verbesserung, aber NOT-Signal nicht homogen zu interpretieren.",
-    transfer:"Psychotherapie-Forschung aus universitärem Setting (Trier), Befund zu Patientenheterogenität und Früherkennung von Therapieversagern relevant für deutsche Versorgung."
-  },
-  {
-    journal:"Epidemiol Serv Saude", year:"2026", pmid:"42922930",
-    author:"Sombra LL et al.", pubdate:"20.07.2026",
-    added:"24.10.2026",
-    title:"Behandlungslücken für psychische Störungen in der Landversorgung Brasiliens",
-    sum:"Querschnittsstudie mit 277 Einwohnern zweier ländlicher Gemeinden in Ceará/Brasilien zur Assoziation zwischen Häufigkeit psychischer Störungen und Versorgungsqualität durch das öffentliche Gesundheitsnetz.",
-    result:"Psychische Störungen prävalent bei 21,3% der Bevölkerung, aber nur 17% mit Diagnose und 13,5% in Regelversorgung. Präsenz von Störungen korreliert mit Konsultation im letzten Jahr (PR 2,46; 95%-KI 1,37–4,42), vorheriger Diagnose (PR 1,87; 1,13–3,09) und Bewertung des öffentlichen Dienstes als schlecht (PR 2,19; 1,24–3,87). 40% berichten Mangel an Fachpersonal. Erhebliche diagnostische und therapeutische Lücken in der Primärversorgung.",
-    transfer:"Brasilien – strukturelle Parallelen zu ländlichen Regionen in Deutschland, vergleichbare Finanzierungsprobleme."
+    journal:"Curr Psychiatry Rep", year:"2026", pmid:"42931979",
+    author:"Díaz-Téllez C et al.", pubdate:"26.10.2026",
+    added:"26.10.2026",
+    title:"Kriseninterventionen für suizidale Jugendliche reduzieren Klinikaufenthalte",
+    sum:"Systematische Übersicht von 15 Studien zu Krisendiensten für Kinder und Jugendliche mit Suizidalität, Selbstverletzung und Depression.",
+    result:"Familie-fokussierte Interventionen (7 Studien) reduzierten Hospitalisierungsraten und verbesserten Familienbeziehungen. Drei Interventionen zur Krisenstabilisierung mit Übergangshilfe senkten Notaufnahmebesuche. Intensive Angebote in der Gemeindeumgebung waren assoziert mit Reduktion suizidaler Gedanken, depressiver Symptome und Klinikaufnahmen, ohne dass Kausalität zu belegen ist.",
+    transfer:"Spanien, transferierbar auf deutsche Krisendienste der Länder"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2129,10 +2093,10 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.10.2026";
+const NEWS_STAND = "27.10.2026";
 const NEWS = [
-  {titel:"Fehlzeiten aufgrund psychischer Erkrankungen in zehn Jahren um 42 Prozent gestiegen", datum:"2026-10-08", url:"https://www.monitor-versorgungsforschung.de/news/fehlzeiten-aufgrund-psychischer-erkrankungen-in-zehn-jahren-um-42-prozent-gestiegen/"},
-  {titel:"Extrabudgetäre Vergütung der Psychotherapie: DPtV kritisiert Entwurf", datum:"2026-10-06", url:"https://www.monitor-versorgungsforschung.de/news/extrabudgetaere-verguetung-der-psychotherapie-dptv-kritisiert-entwurf/"},
+  {titel:"Sparmaßnahmen in der Psychotherapie korrigiert: BDP sieht Lücken", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/sparmassnahmen-in-der-psychotherapie-korrigiert-bdp-sieht-luecken/"},
+  {titel:"Informationsdienst Psychische Gesundheit: DZPG startet Portal", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/informationsdienst-psychische-gesundheit-dzpg-startet-portal/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
