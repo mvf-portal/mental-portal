@@ -2065,17 +2065,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "27. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "28. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Curr Psychiatry Rep", year:"2026", pmid:"42931979",
-    author:"Díaz-Téllez C et al.", pubdate:"26.10.2026",
-    added:"26.10.2026",
-    title:"Kriseninterventionen für suizidale Jugendliche reduzieren Klinikaufenthalte",
-    sum:"Systematische Übersicht von 15 Studien zu Krisendiensten für Kinder und Jugendliche mit Suizidalität, Selbstverletzung und Depression.",
-    result:"Familie-fokussierte Interventionen (7 Studien) reduzierten Hospitalisierungsraten und verbesserten Familienbeziehungen. Drei Interventionen zur Krisenstabilisierung mit Übergangshilfe senkten Notaufnahmebesuche. Intensive Angebote in der Gemeindeumgebung waren assoziert mit Reduktion suizidaler Gedanken, depressiver Symptome und Klinikaufnahmen, ohne dass Kausalität zu belegen ist.",
-    transfer:"Spanien, transferierbar auf deutsche Krisendienste der Länder"
+    journal:"PLoS One", year:"2026", pmid:"42945295",
+    author:"Wang YH et al.", pubdate:"27.10.2026",
+    added:"27.10.2026",
+    title:"Menschen mit psychischen Erkrankungen zeigen geringere Krebsvorsorge-Teilnahme bei schwerer Symptomatik, trotz Universalversicherung",
+    sum:"Bevölkerungsbasierte Analyse von über 99% der taiwanesischen Bevölkerung, die Unterschiede in Krebsvorsorgeteilnahme und Diagnosestadium bei Personen mit und ohne vorangegangene psychische Erkrankungen (PMHD) verglich.",
+    result:"Allgemein war PMHD mit höherer Vorsorgepartnizipation verbunden (bereinigtes Odds Ratio Brust 1,04; Darm 1,12) und reduzierten Odds für metastatische Erkrankung (Brust 0,72; Darm 0,93). Aber Personen mit schwerer PMHD hatten signifikant niedrigere Vorsorge-Odds trotz hohem ambulantem Ressourcentzugang (Brust 0,81; Darm 0,88) und keine Staging-Vorteile beim Darmkrebs.",
+    transfer:"Taiwan, aber Ungleichheitsbefund bei schwerem PMHD universal gültig"
+  },
+  {
+    journal:"Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz", year:"2026", pmid:"42900193",
+    author:"Reiß F et al.", pubdate:"20.10.2026",
+    added:"20.10.2026",
+    title:"Körperliche Aktivität ist mit besserer psychischer Gesundheit bei Kindern und Jugendlichen assoziiert, Effekte stärker bei freizeitlicher Sportaktivität",
+    sum:"Narrative Übersicht von drei bevölkerungsrepräsentativen deutschen Studien (MoMo, BELLA, COPSY), die Zusammenhänge zwischen körperlicher Aktivität und psychischer Gesundheit bei Kindern und Jugendlichen (4–23 Jahre) analysierte.",
+    result:"Höhere körperliche Aktivität ging mit weniger psychischen Auffälligkeiten und höherer gesundheitsbezogener Lebensqualität einher; freizeitlicher Sport im Verein und außerhalb zeigte stärkere Schutzeffekte. Kinder aus sozioökonomisch benachteiligten Familien waren weniger aktiv und stärker psychisch belastet; soziale Einbindung und Kompetenzerleben im Sport waren zentrale Faktoren.",
+    transfer:"Deutschland, KiGGS-Kooperationsstudien, unmittelbar auf deutsches Schulsystem übertragbar"
+  },
+  {
+    journal:"JAMA Netw Open", year:"2026", pmid:"42944685",
+    author:"Milani SA et al.", pubdate:"01.10.2026",
+    added:"27.10.2026",
+    title:"Jährliche Vorsorgeuntersuchungen erhöhen Demenzmedikation bei Medicare-Versicherten",
+    sum:"Retrospektive Kohortenanalyse von 799.268 Medicare-Versicherten mit diagnostizierter Alzheimer-Krankheit oder verwandter Demenzerkrankungen (ADRD), die den Zusammenhang zwischen der Anzahl von Jahresvorsorgeuntersuchungen (AWV) und neuen Demenzmedikamentenverschreibungen zwischen 2018 und 2025 untersuchte.",
+    result:"Eine AWV war mit 9,0% höherer Rate neuer Demenzmedikamentenverschreibungen assoziiert (HR 1,09; 95%-KI 1,07–1,11), zwei AWVs mit 12,0% höherer Rate (HR 1,12; 95%-KI 1,10–1,14) und drei oder mehr mit 16,0% höherer Rate (HR 1,16; 95%-KI 1,13–1,19); stärker bei neu diagnostizierter Demenz als bei bereits bekannter.",
+    transfer:"USA, aber Screening-und-Verschreibungs-Frage gesundheitssystemübergreifend relevant"
+  },
+  {
+    journal:"Age Ageing", year:"2026", pmid:"42935252",
+    author:"Jang GY et al.", pubdate:"03.08.2026",
+    added:"27.10.2026",
+    title:"Telemedizinische Multikomponenten-Intervention verbessert Kognition bei älteren Menschen in der Gemeindeversorgung",
+    sum:"Randomisierte kontrollierte Studie an 140 älteren Erwachsenen (60–80 Jahre) in südkoreanischen Gemeindegesundheitszentren, die ein videogestütztes Bewegungs- und Ernährungsprogramm mit üblicher Gesundheitsförderung verglich.",
+    result:"Nach 6 Monaten zeigte die Interventionsgruppe stärkere Verbesserung der Montreal Cognitive Assessment (MoCA-K)-Scores (2,3 Punkte Differenz; 95%-KI 1,4–3,1) und bessere funktionale Unabhängigkeit sowie niedrigere Gebrechlichkeit, mit Effekten, die nach 12 Monaten anhielten (1,1 Punkte; 95%-KI 0,3–2,0). Keine unerwünschten Ereignisse wurden berichtet.",
+    transfer:"Südkorea, Gesundheitssystem mit vergleichbarem gemeindepsychiatrischen Auftrag"
+  },
+  {
+    journal:"BMC Prim Care", year:"2026", pmid:"42934522",
+    author:"Parker A et al.", pubdate:"30.07.2026",
+    added:"27.10.2026",
+    title:"GP-Wissen über Tic-Störungen ist begrenzt; Stigma und unklar Standards hemmen Versorgung in der Primärmedizin",
+    sum:"Thematische Analyse von 20 Interviews (5 Erwachsene mit Tics, 5 Eltern, 6 Hausärzte, 4 Fachleute aus Sekundärversorgung), die Barrieren und Erleichterungen in der hausärztlichen Versorgung von Tic-Störungen in England untersuchte.",
+    result:"Leitthemen waren: (1) begrenzte Fortbildung und Evidenzlücke (keine NICE-Leitlinie) erschwert GP-Support; (2) inkonsistente Verfügbarkeit von Spezialversorgung landesweit; (3) negative Erfahrungen (Stigma, unzureichende Kommunikation, schlechte Weiterleitungsinformation). Empfehlung: zugängliche Fortbildung für GPs könnte Wissen und Bewusstsein steigern und Patientenerfahrung verbessern.",
+    transfer:"England, NHS-System; Befund zu GP-Wissensgap und Versorgungsungleichheit deutschlandrelevant"
+  },
+  {
+    journal:"Trials", year:"2026", pmid:"42934722",
+    author:"Jacobsen CF et al.", pubdate:"28.07.2026",
+    added:"27.10.2026",
+    title:"Pragmatische RCT misst Psychotherapie-Wirksamkeit in dänischer Routinepraxis gegen Warteliste",
+    sum:"Protokoll für pragmatische RCT mit 308 Klienten von mindestens 20 in der Primärversorgung tätigen Psychologen in Dänemark, die Psychotherapie in naturalistischer Praxis (Therapiefreiraum) gegen Warteliste vergleicht; Laufzeit 16 Wochen aktive Messung, Nachverfolgung bis 16,5 Monate.",
+    result:"Primärer Outcome ist Veränderung der PHQ-ADS-Scores (Depressivität und Angst) alle 2 Wochen; sekundär funktionale Beeinträchtigung, Lebensqualität, wahrgenommener Stress; Outcome-Messung in therapeutischer Allianz und Therapistischer Ansatz. Erste Voraussagen sind nicht verfügbar (Studienprotokoll), aber Studienregistrierung und ethische Genehmigung liegen vor.",
+    transfer:"Dänemark, ähnliches Versicherungssystem, aber Behandlungsfreiraum unterscheidet sich von deutscher Richtlinienpsychotherapie"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2100,7 +2145,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "27.10.2026";
+const NEWS_STAND = "28.10.2026";
 const NEWS = [
   {titel:"Sparmaßnahmen in der Psychotherapie korrigiert: BDP sieht Lücken", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/sparmassnahmen-in-der-psychotherapie-korrigiert-bdp-sieht-luecken/"},
   {titel:"Informationsdienst Psychische Gesundheit: DZPG startet Portal", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/informationsdienst-psychische-gesundheit-dzpg-startet-portal/"},
@@ -2110,8 +2155,7 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Thomas Fuchs, Karl Jaspers Professor of Philosophical Foundations of Psychiatry and Psychotherapy, retires", datum:"2026-10-20", url:"http://idw-online.de/de/news879426", quelle:"idw"},
-  {titel:"Thomas Fuchs, Karl-Jaspers-Professor für Philosophische Grundlagen der Psychiatrie und Psychotherapie, geht in Ruhestand", datum:"2026-10-20", url:"http://idw-online.de/de/news879425", quelle:"idw"},
+  {titel:"Winterblues oder Depression? Wo die Grenze verläuft", datum:"2026-10-27", url:"https://www.presseportal.de/pm/172004/6378433", quelle:"presseportal.de"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
