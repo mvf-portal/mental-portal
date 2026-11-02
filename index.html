@@ -2180,62 +2180,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "1. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "2. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz", year:"2026", pmid:"42895666",
-    author:"Kunst C et al.", pubdate:"19.10.2026",
+    journal:"Int J Methods Psychiatr Res", year:"2026", pmid:"42963905",
+    author:"Wei Y et al.", pubdate:"Dez. 2026",
+    added:"31.10.2026",
+    title:"Blonanserin verbessert Symptome bei Risperidon-resistenter Schizophrenie",
+    sum:"Randomisierte kontrollierte Studie an 120 Patienten mit therapieresistenter Erstepiskde-Schizophrenie, die Blonanserin versus Clozapin über 3 Monate verglich.",
+    result:"Nach 3 Monaten sank die PANSS-Punktzahl (Positivsymptom-Negativsymptom-Skala) unter Blonanserin stärker als unter Clozapin; die Lebensqualität stieg signifikant stärker an (p&lt;0,05 für alle Vergleiche). Blonanserin war sicher und führte zu besserer funktionaler Verbesserung.",
+    transfer:"China, Vergleichbarkeit gering – Versorgungskontexte unterscheiden sich deutlich."
+  },
+  {
+    journal:"Trials", year:"2026", pmid:"42963571",
+    author:"Petersén N et al.", pubdate:"30.10.2026",
+    added:"31.10.2026",
+    title:"Transdiagnostische Metakognitive Therapie versus störungsspezifische KVT bei Angststörungen",
+    sum:"Studienprotokoll einer pragmatischen, zweiarmigen Superioritäts-RCT in Stockholm mit 86 Erwachsenen mit generalisierter Angststörung, sozialer Phobie oder PTBS.",
+    result:"Primäres Outcome: selbstberichtete Symptome der Hauptdiagnose; sekundäre Outcomes: klinische Schwere, Remissionsraten, depressive Symptome, funktionale Beeinträchtigung. Langzeitverfolgung über 12 Monate geplant; Mediatoranalysen und gesundheitsökonomische Evaluation.",
+    transfer:"Schweden, hohe Übertragbarkeit – öffentliches Versicherungssystem und vergleichbare Ambulanzstrukturen."
+  },
+  {
+    journal:"Scand J Prim Health Care", year:"2026", pmid:"42954299",
+    author:"Kjær NK et al.", pubdate:"29.10.2026",
+    added:"29.10.2026",
+    title:"Hausärztliches Modell für Früherkennung und Management der Alzheimer-Erkrankung",
+    sum:"Beschreibung eines pragmatischen Drei-Stufen-Konzepts für den Hausarzt zur Diagnose und Früherkennung der Alzheimer-Erkrankung, mit strukturierter klinischer Bewertung, Ausschluss sekundärer Ursachen und künftiger Blutbiomarker-Einsatz.",
+    result:"Ein allgemeinmedizinisch umsetzbares Konzept wird vorgeschlagen mit Verbesserung von Diagnose-Aktualität, Erreichbarkeit und Kontinuität durch Integration in robuste klinische und ethische Rahmenbedingungen. Neue blutgestützte Biomarker ermöglichen skalierbare, zugänglichere Diagnostik.",
+    transfer:"Dänemark, hohe Übertragbarkeit – hausärztliche Grundversorgung und öffentliches Gesundheitssystem ähnlich deutschen Strukturen."
+  },
+  {
+    journal:"Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz", year:"2026", pmid:"42776168",
+    author:"Hübner J et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"Anonymisierung von Registerdaten unter DSGVO – Optionen für Forschungszugang",
+    sum:"Diskussionsbeitrag zur Definition und praktischen Realisierung von Anonymisierung von Krebsregisterdaten nach europäischer DSGVO-Rechtsprechung.",
+    result:"Anonymität ist nicht allein eine Dateneigenschaft, sondern hängt vom spezifischen Reidentifikationsrisiko im Kontext ab. Kombination von Datenaufbereitung und rechtlichen Nutzungsbeschränkungen kann Wahrscheinlichkeit minimieren; als anonymisiert gilt ein Datensatz, wenn das verbleibende Reidentifikationsrisiko ‚de facto vernachlässigbar' ist.",
+    transfer:"Deutschland/EU, direkt anwendbar – deutsche und europäische Rechtsprechung, Krebsregisterdaten als Praxisbeispiel."
+  },
+  {
+    journal:"Trials", year:"2026", pmid:"42963810",
+    author:"Matergia M et al.", pubdate:"04.08.2026",
+    added:"31.10.2026",
+    title:"Lehrer als Vermittler psychischer Gesundheit in ländlichen indischen Schulen",
+    sum:"Studienprotokoll für eine hybrid angelegte Stepped-Wedge-Cluster-RCT, die ein von Lehrern geleitetes transdiagnostisches Programm für Kinder in Darjeeling testet.",
+    result:"Geplante Effektivitätsstudie mit 2677 initial eingereichten Fragen, die zu 20 priorisierten Forschungsfragen konsolidiert wurden; Sekundäroutcomes umfassen elternberichtete Symptome, akademische Leistung und Schulanwesenheit. Qualitative Ethnografie informiert Kontextanalyse.",
+    transfer:"Südasien, begrenzte Übertragbarkeit – andere Schulstrukturen und Verfügbarkeit von Fachpersonal."
+  },
+  {
+    journal:"Age Ageing", year:"2026", pmid:"42896862",
+    author:"Lunter FMA et al.", pubdate:"03.08.2026",
     added:"19.10.2026",
-    title:"Bewegungsförderung per App: Just-in-Time-Impulse bei Depression und Sucht",
-    sum:"Narrativer Übersichtsbeitrag zu digitalen Technologien, Wearables und Just-in-Time Adaptive Interventions (JITAIs) zur Steigerung alltäglicher körperlicher Aktivität und deren Effekte auf psychische Erkrankungen (Depression, Suchterkrankungen).",
-    result:"Digitale Ansätze können zeitnahe und individualisierte Unterstützung bieten. Zwei Forschungsprojekte zeigen, dass JITAI-Bewegungsimpulse klinisch relevante Merkmale wie Craving, subjektive Energie und Antrieb beeinflussen könnten. Limitationen: Messgenauigkeit, Datenqualität, langfristige Adhärenz, begrenzte Rolle der Bewegungsförderung in DiGA für psychische Störungen. Blended-Care-Ansätze mit digitalen und persönlichen Komponenten zeigen Potenzial.",
-    transfer:"Deutschland/Österreich, DiGA-Kontext; Versorgungsintegrationsfrage"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42959666",
-    author:"Larysa S", pubdate:"15.10.2026",
-    added:"30.10.2026",
-    title:"Krankheitslast in der Ukraine: Depressionen und PTSD unter Kriegsbedingungen",
-    sum:"Online-Querschnittstudie zur psychischen Belastung von Ukrainern während des Krieges und erzwungener Migration, mit Altersvergleichen und Unterschieden nach Wohnort.",
-    result:"306 Teilnehmer, gruppiert nach Alter (unter 26 vs. 26+) und Wohnort (Ausland, innere Vertriebene, nicht verschoben). Signifikante Unterschiede zwischen Subgruppen in Depressions-, Angst- und PTSD-Symptomscores. Depressionen, Angststörungen und PTSD waren häufigste psychische Störungen in der Kohorte; Ressourcen zum Umgang mit Stress wurden gemessen.",
-    transfer:"Ukraine in Kriegszustand; Versorgungsebenen-Design und Präventionsforschung für Krisen relevant"
-  },
-  {
-    journal:"Nord J Psychiatry", year:"2026", pmid:"42813764",
-    author:"Larsen S et al.", pubdate:"30.09.2026",
-    added:"30.09.2026",
-    title:"Kardiovaskuläre Prävention in der Psychiatrie: Geringe Umsetzung evidenzbasierter Standards",
-    sum:"Norwegische Studie zur Implementierungstreue eines evidenzbasierten Modells für somatische Gesundheitsversorgung bei Patienten mit schweren psychischen Erkrankungen in Spezialistendiensten.",
-    result:"An vier Kliniken zeigten sich durchgehend niedrige Fidelity-Scores (schlechte Umsetzung evidenzbasierter Praktiken). Kardiovaskuläre Risikofaktoren waren hochprävalent: 58,1 % täglich Rauchende/Schnupfende, Übergewicht, Hypertonie und Bewegungsmangel weit verbreitet. Policies schnitten besser ab als praktische Umsetzung, was auf eine Kluft zwischen Wissen und Handeln hindeutet. Assoziationen zwischen Fidelity und Patientenergebnissen waren nach Anpassung nicht signifikant.",
-    transfer:"Skandinavien, ähnliches Gesundheitssystem; Befunde zur Versorgungslücke übertragbar"
-  },
-  {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42963741",
-    author:"Yang Y et al.", pubdate:"12.08.2026",
-    added:"31.10.2026",
-    title:"Zugang zu Autismus-Reha: Kosten und Wohnortnähe als Hauptbarrieren",
-    sum:"Mixed-Methods-Studie (Interviews + Theory of Change) zu Barrieren und Ressourcen für die Nutzung von Rehabilitationsdiensten bei autistischen Kindern in China, mit Vergleich zwischen Familien mit und ohne Dienstzugang.",
-    result:"37 Interviews (30 mit Zugang, 7 ohne). Universelle Barrieren: hohe Kosten, geografische Ressourcenlücken, unzureichende Fertigkeiten der Betreuer. Neun Ressourcen und 15 Barrieren bei Zugangsgruppe, nur zwei bzw. neun bei Nicht-Zugangsgruppe identifiziert. Evidenzgestützte Multi-Stakeholder-Pfade und Netzwerke entwickelt.",
-    transfer:"China; Modell für WHO-Regionen mit Ressourcengrenzen; Zugangsanalytik übertragbar"
-  },
-  {
-    journal:"BMC Psychiatry", year:"2026", pmid:"42963747",
-    author:"Ho MH et al.", pubdate:"04.08.2026",
-    added:"31.10.2026",
-    title:"Motivational Interviewing mit Verhaltenstherapie: bessere Therapieadhärenz bei Angststörungen",
-    sum:"Scoping Review zu neun empirischen Studien über integrierte Modelle von Motivational Interviewing (MI) und kognitiver Verhaltenstherapie (CBT) bei Angststörungen.",
-    result:"Drei Integrationsmuster identifiziert (MI vor Therapie, concurrent/embedded, intermittent/responsive). MI zeigte in mehreren Studien Verbesserungen bei Therapiebereitschaft, Adhärenz, Anwesenheit, therapeutischer Allianz und Widerstandsmanagement. Symptomverbesserungen über standard-CBT hinaus waren inkonsistent. Erhebliche Heterogenität bei Sequenzierung, Dosierung und Fidelity.",
-    transfer:"Mehrheitlich USA/Kanada; Adhärenzproblem ist deutschlandweit relevant"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42958493",
-    author:"Owusu GMY et al.", pubdate:"03.08.2026",
-    added:"30.10.2026",
-    title:"Finanzielle Belastung verschlechtert Psyche, soziale Unterstützung hilft nicht",
-    sum:"Querschnittstudie an einer ghanaischen Universität zum Zusammenhang zwischen finanzieller Belastung und psychischer Gesundheit bei Postgraduierten, mit Prüfung der Moderatorrolle sozialer Unterstützung.",
-    result:"Teilnehmer mit finanzieller Stressbelastung zeigten signifikant schlechtere psychische Ergebnisse (Depression, Angst), auch bei kontrollertem Einkommen. Soziale Unterstützung moderierte diese Beziehung nicht signifikant. Männliche und ältere Studierenden waren stärker vulnerabel. Positive Hilfesuche-Einstellungen und wahrgenommene soziale Unterstützung erklärten psychische Ergebnisse nicht. Dringender Bedarf für innovative Finanzierungsschemen (Stipendien, Darlehen) und institutionelle Dienste.",
-    transfer:"Ghana/Subsahara-Afrika; Befund zu Wirkungsgrenzen informeller Unterstützung"
+    title:"Schottische Forschungspriorisierung für Demenz und Gehirngesundheit",
+    sum:"Nationale Prioritätssetzen-Übung mit 706 Teilnehmern, die 2677 Forschungsfragen stellten, daraus Delphi-Ranking mit 242 und 252 Teilnehmern durchgeführt.",
+    result:"20 Fragen priorisiert (10 Gehirngesundheit, 10 Demenz). Risikoprävention Top-Priorität für Gehirngesundheit, Frühdiagnose für Demenz. Gehirnresilienz und verbesserte Demenz-Versorgungspfade mit größtem Wirkungspotenzial bewertet. 48 Personen mit kognitiven Beeinträchtigungen, 217 Angehörige, 261 Bürgerbeteiligung, 134 Fachpersonen.",
+    transfer:"Schottland/UK, mittlere Übertragbarkeit – andere NHS-Strukturen, aber ähnliche Versorgungsaufträge."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2260,7 +2260,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "01.11.2026";
+const NEWS_STAND = "02.11.2026";
 const NEWS = [
   {titel:"Sparmaßnahmen in der Psychotherapie korrigiert: BDP sieht Lücken", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/sparmassnahmen-in-der-psychotherapie-korrigiert-bdp-sieht-luecken/"},
   {titel:"Informationsdienst Psychische Gesundheit: DZPG startet Portal", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/informationsdienst-psychische-gesundheit-dzpg-startet-portal/"},
