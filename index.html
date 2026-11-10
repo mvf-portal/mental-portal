@@ -2180,62 +2180,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "9. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "10. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Curr Psychiatry Rep", year:"2026", pmid:"42995319",
-    author:"Fatima T et al.", pubdate:"07.11.2026",
+    journal:"Aust N Z J Obstet Gynaecol", year:"2026", pmid:"43000942",
+    author:"Ohene-Agyei P et al.", pubdate:"Dez. 2026",
+    added:"09.11.2026",
+    title:"Ethnizität und Adipositas prägen psychische Belastung peripartal unterschiedlich",
+    sum:"Prospektive Kohortenstudie mit 4.061 Frauen (433 mit Gestationsdiabetes) zur Assoziation von Soziodemographie mit Angst-, Depressionsscores und Lebensqualität perinatal.",
+    result:"Nicht-europäische Ethnizität, Adipositas (BMI ≥30) und Alter assoziiert mit schlechterer mentaler Gesundheit, aber unterschiedliche Zeitmuster und Risikomagnitude zwischen Frauen mit/ohne GDM. Bei GDM: höheres Alter ≥40 Jahre Risikofaktor; bei Kontrollen: jüngeres Alter &lt;30 Jahre.",
+    transfer:"Australien/Neuseeland, neue Daten zu Ungleichheit, begrenzte deutsche Übertragbarkeit"
+  },
+  {
+    journal:"Psychol Med", year:"2026", pmid:"43000852",
+    author:"Burger SR et al.", pubdate:"09.11.2026",
+    added:"09.11.2026",
+    title:"Traumafokussierte Therapien wirksam bei PTSD und psychotischen Störungen",
+    sum:"Randomisierte Studie mit 162 Patienten mit Schizophrenie-Spektrum-Störungen und PTSD: Prolonged Exposure, EMDR und kognitives Restrukturieren gegen Warteliste.",
+    result:"PE, EMDR und kognitive Restrukturierung reduzierten PTSD-Schweregrad signifikant gegenüber Warteliste über 6 Monate (CAPS-5 Reduktion: -9,76 bis -12,72 Punkte; Effektstärken d = -0,90 bis -1,04). Psychosesymptome verbesserten sich nicht signifikant.",
+    transfer:"Niederlande, vergleichbares System, unterversorgte Gruppe"
+  },
+  {
+    journal:"Medicine (Baltimore)", year:"2026", pmid:"42994830",
+    author:"Shaku F et al.", pubdate:"06.11.2026",
     added:"06.11.2026",
-    title:"Schriftliche Expositionstherapie bei PTSD und Substanzstörung: Meta-Analyse mit Retentionsrate von 69 %",
-    sum:"Systematische Übersicht und Meta-Analyse von 12 Studien zur Wirksamkeit und Akzeptanz schriftlicher Expositionstherapie (WET) als Komponente in integrierter Behandlung von PTSD und Substanznutzungsstörung (SUD).",
-    result:"Meta-Analyse von sechs Studien zeigte große Reduktion der PTSD-Schweregrad (Hedges g=1,18; 95%-KI [0,68; 1,72]; p&lt;0,001). Retentionsrate 69,03 % war höher als bei typischen prolongierten Expositionsbehandlungen. Mehrheit der Patienten und Therapeuten bewertete WET als durchführbar und akzeptabel. Minderheit fand gleichzeitige Behandlung beider Störungen belastend.",
-    transfer:"Australische und nordamerikanische Evidenz, Integrationsergebnisse auch für deutsches Versorgungssystem relevant"
+    title:"Angststörungen und Schlafstörungen persistierten nach COVID-19-Rückgang",
+    sum:"Retrospektive Kohortenstudie mit 552 Patienten (87 vor Pandemie, 322 während, 75 und 68 nach Pandemie) zu psychischen Symptomen über drei Perioden.",
+    result:"Innerhalb 1 Jahr post-Pandemie: GHQ-30-Gesamtscores höher als Prä-Pandemie (16,32 vs. 13,57, p=0,015), Schlafstörung 3,70 vs. 2,65 (p&lt;0,001), Angst/Dysphorie 3,14 vs. 2,35 (p=0,016), CES-D 26,53 vs. 21,39 (p=0,005). Besserung erst nach 1–2 Jahren.",
+    transfer:"Japan, aber universelle Befunde zur Persistenz psychischer Belastung post-Krise"
   },
   {
-    journal:"Int J Geriatr Psychiatry", year:"2026", pmid:"42992512",
-    author:"Han O et al.", pubdate:"Nov. 2026",
-    added:"06.11.2026",
-    title:"Smart-Home-Technologien für Demenzpatienten: Systematische Übersicht zeigt begrenzte Wirksamkeit",
-    sum:"Systematische Übersicht (PRISMA 2020) mit Meta-Analyse von 18 Studien zu 17 Smart-Home-Technologien und tragbaren Geräten zur Unterstützung von Demenzpatienten im eigenen Zuhause.",
-    result:"Level-2-Evidenz unterstützt Companion-Roboter, elektronische Kalender, Nachts-Überwachungssystem und People Power Caregiver System. Meta-Analyse fand keine Evidenz zur Reduktion von Belastung der Pflegepersonen (p=0,68; Hedges g=0,01; 95%-KI -0,14 bis 0,17). Technologien sind akzeptabel und durchführbar, aber Wirksamkeit bleibt begrenzt.",
-    transfer:"Internationale Evidenz, Überblick über verfügbare Technologien und deren Grenzen für Versorgungsplanung relevant"
+    journal:"Clin Psychol Psychother", year:"2026", pmid:"43000688",
+    author:"Nielsen SKK et al.", pubdate:"Nov. 2026",
+    added:"09.11.2026",
+    title:"CBT/ERP und ACT zeigen vergleichbare Effekte auf Emotionsregulation bei OCD",
+    sum:"Randomisierte Studie mit 176 Patienten mit OCD, randomisiert zu gruppenbasierter CBT/ERP oder ACT mit Assessments bis 12 Monate post-treatment.",
+    result:"Beide Verfahren zeigten vergleichbare Verbesserungen in Emotionsregulation (DERS), Schlaf (SCI), Angstempfindlichkeit (ASI-R) und psychologischer Flexibilität (AAQ-OC) über alle Zeitpunkte. ACT ist nicht-inferior zur CBT/ERP für Sekundäroutcomes.",
+    transfer:"Dänemark und Dänemark, Grundversorgung, sekundäre Outcomedaten"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42992352",
-    author:"Paraschiv AC et al.", pubdate:"23.10.2026",
-    added:"06.11.2026",
-    title:"Rumänische Hausärzte: Wissenlücken bei der Früherkennung kognitiver Störungen",
-    sum:"Querschnittsstudie unter 547 rumänischen Hausärzten zur Ermittlung von Wissen, Einstellungen und Praxis beim Screening auf mild cognitive impairment (MCI) in einer Bevölkerung mit geschätzter MCI-Prävalenz von 28,5 %.",
-    result:"Nur 6,5 % der Ärzte kannten die Petersen-Kriterien für MCI, 10,8 % kannten das häufigste Screening-Instrument, 20,7 % identifizierten modifizierbare Risikofaktoren. Routinemäßiges Screening wurde von nur 29,0 % durchgeführt. Nur 10,8 % hatten spezifische MCI-Schulungen erhalten. Trotz positiver Einstellungen (97,9 % stimmten zu, in die Früherkennung einbezogen zu werden) bestand eine große Lücke zwischen Bereitschaft und Handlung.",
-    transfer:"Rumänische Primärversorgung, systembezogene Erkenntnisse zu Schulungsbedarf und Implementierungsbarrieren übertragbar"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42995551",
-    author:"Pakdel FK et al.", pubdate:"11.08.2026",
-    added:"07.11.2026",
-    title:"Berufsstress bei Feuerwehrleuten: Systematische Übersicht mit 87.242 Teilnehmern",
-    sum:"Systematische Übersicht von 34 Studien mit 87.242 Feuerwehrleuten zu Assoziationen zwischen beruflichem psychosozialem Stress und körperlichen sowie psychischen Gesundheitsergebnissen.",
-    result:"Organisatorischer Systemstress zeigte stärkste Assoziation mit depressiven Symptomen (OR=8,03 in Längsschnittstudie). Diskriminierung und Belästigung waren assoziiert mit PTSD-Symptomen (OR=2,21) und Angst (OR=2,56) bei weiblichen Feuerwehrleuten. Mangel an Anerkennung korrelierte mit gastrointestinalen (OR=2,17–2,39) und muskuloskelettalen Störungen (OR=2,39). Soziale Unterstützung, Selbstwirksamkeit und Resilienz reduzierten Stressfolgen.",
-    transfer:"Internationale Studie, Stressoren und Schutzfaktoren auch im deutschen Rettungsdienst relevant"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42995556",
-    author:"Chowdhury N et al.", pubdate:"11.08.2026",
-    added:"07.11.2026",
-    title:"Strukturelle Vulnerabilität: Psychische Belastung von Minderheiten in systemrelevanten Berufen",
-    sum:"Querschnittsstudie mit 446 nicht-medizinischen Fachkräften mit Migrationshintergrund in Calgary zur Ermittlung psychischer Belastung während der COVID-19-Pandemie unter Bedingungen von Beschäftigungsunsicherheit und fehlenden Schutzmaßnahmen.",
-    result:"85,6 % berichteten moderate bis hohe Stressbelastung (PSS-10). 37,6 % screenten positiv für moderate bis schwere Depression (PHQ-9), 31,1 % für Angststörung (GAD-7). Weibliches Geschlecht und Beschäftigungsstörungen waren unabhängig mit höherer Depression assoziiert (OR größer 1). Leben in Mehrpersonenhaushalten war stark protektiv gegen Angst und Depression.",
-    transfer:"Kanada mit ähnlichem Gesundheitssystem, Befunde zu Intersektionalität und strukturellen Faktoren auf Deutschland übertragbar"
-  },
-  {
-    journal:"Wiad Lek", year:"2026", pmid:"42922325",
-    author:"Danylova T et al.", pubdate:"2026",
-    added:"24.10.2026",
-    title:"Soziale Ausgrenzung und Isolation in der Ukraine: Qualitative Befunde zu Bewältigungsstrategien",
-    sum:"Qualitative Studie mit fünf narrativen Interviews (Januar bis März 2026) mit Menschen, die möglicherweise unter soziale Ausgrenzung fallen, kombiniert mit transdisziplinärer Literaturanalyse zum Kontext des Krieges und psychischer Gesundheit in der Ukraine.",
-    result:"Befragte berichteten nicht, sich selbst als sozial ausgeschlossen zu sehen, aber alle erwähnten freiwillige oder unfreiwillige soziale Isolation mit negativer Auswirkung auf psychische Gesundheit und Wohlbefinden. Narrative verdeutlichten, wie Kriegsfolgen neue vulnerabile Gruppen hervorbrachten und Mechanismen der individuellen Anpassung an Kriegstraumata. Teilnehmer äußerten konkrete Vorschläge zur Bewältigung unerfüllter Bedürfnisse.",
-    transfer:"Kriegsbedingte Notlagen und erzwungene Migration relevant für Deutschland und europäische Nachbarländer"
+    journal:"BMC Psychiatry", year:"2026", pmid:"43000327",
+    author:"Celo C et al.", pubdate:"07.08.2026",
+    added:"08.11.2026",
+    title:"Aktivitätsbasierte Ergotherapie fördert Recovery bei schweren psychischen Störungen",
+    sum:"Qualitative Studie mit 11 Patienten mit psychotischen Störungen zur Erfahrung von aktivitätsbasierter Ergotherapie während stationärer Behandlung in Norwegen.",
+    result:"Patienten erlebten durch sinnvolle Aktivitäten persönliches Wachstum, erhöhtes Selbstvertrauen und Übergang aus der Patientenrolle – zentral für Recovery. Kernthemen: therapeutische Umgebung als sozialer Raum, Normalitätserlebnis durch Engagement, Transfer von Alltagsfertigkeiten über die Behandlung hinaus.",
+    transfer:"Norwegen, vergleichbares Versicherungssystem, stationäre Versorgung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2260,9 +2251,9 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "09.11.2026";
+const NEWS_STAND = "10.11.2026";
 const NEWS = [
-  {titel:"Sparmaßnahmen in der Psychotherapie korrigiert: BDP sieht Lücken", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/sparmassnahmen-in-der-psychotherapie-korrigiert-bdp-sieht-luecken/"},
+  {titel:"Psychotherapie-Vergütung 2018 rechtswidrig: BSG gibt Klage statt", datum:"2026-11-09", url:"https://www.monitor-versorgungsforschung.de/news/psychotherapie-verguetung-2018-rechtswidrig-bsg-gibt-klage-statt/"},
   {titel:"Informationsdienst Psychische Gesundheit: DZPG startet Portal", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/informationsdienst-psychische-gesundheit-dzpg-startet-portal/"},
 ];
 // === NEWS-BLOCK-ENDE ===
