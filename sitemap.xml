@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://mental.m-vf.de/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://mental.m-vf.de/studie/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://mental.m-vf.de/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://mental.m-vf.de/studie/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://mental.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://mental.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://mental.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://mental.m-vf.de/studie/43026199/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://mental.m-vf.de/studie/43024381/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://mental.m-vf.de/studie/43017886/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://mental.m-vf.de/studie/43009891/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://mental.m-vf.de/studie/42841968/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://mental.m-vf.de/studie/42826926/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://mental.m-vf.de/studie/43024156/</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://mental.m-vf.de/studie/43023769/</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://mental.m-vf.de/studie/43021874/</loc><lastmod>2026-11-14</lastmod></url>
