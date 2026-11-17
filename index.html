@@ -2252,62 +2252,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "16. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "17. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Int Nurs Rev", year:"2026", pmid:"43033015",
-    author:"Alelayan H", pubdate:"Dez. 2026",
+    journal:"Psychother Psychosom", year:"2026", pmid:"43038312",
+    author:"Pittig A et al.", pubdate:"16.11.2026",
+    added:"16.11.2026",
+    title:"Expositionstherapie für Angststörungen: Erfolg bleibt fünf Jahre bestehen, 36% suchen keine weitere Behandlung",
+    sum:"Fünf-Jahres-Follow-up einer multizentrischen RCT (355 von 616 Patienten = 58%) zur Expositions-basierten KVT mit Messung von Angstsymptomen und psychosozialer Funktionsfähigkeit.",
+    result:"Verbesserungen bei Postbehandlung und 6-Monats-Follow-up blieben über 5 Jahre stabil. Remissions-Raten stabil, zuverlässiger Rückfall 4,9%, zuverlässige Neu-Remission 6,5%. 63,4% suchten keine zusätzliche Behandlung; von den 36,4%, die es taten, nannten 64,2% Depression und 60,5% Angst als Grund, aber nur 6,0% wegen Angststörung allein. Keine Unterschiede zwischen intensivierter und non-intensivierter Exposition.",
+    transfer:"Deutschland (multizentrisch, deutsche und deutschsprachige Zentren), Versicherungssystem vergleichbar."
+  },
+  {
+    journal:"BMC Psychiatry", year:"2026", pmid:"43026520",
+    author:"Liu W et al.", pubdate:"04.11.2026",
+    added:"13.11.2026",
+    title:"Virtual-Reality-Extinktionstraining bei Methamphetaminabhängigkeit: kurzzeitige aber nicht anhaltende Effekte auf Craving",
+    sum:"RCT mit 48 Patienten mit Methamphetaminabhängigkeit zu Virtual-Reality-basiertem Retrieval-Extinktionstraining (Retrieval 10 min vor Extinktion) versus Kontrollbedingungen, Messung von Craving und physiologischen Reaktionen über 6 Monate.",
+    result:"Alle Gruppen zeigten Reduktion der Reiz-Reaktivität. Retrieval-Extinktion (10 min) zeigte kurzzeitig (Tag 1–Woche 1) niedrigere Craving-, Hautleitfähigkeits- und Herzfrequenzwerte als Kontrolle (q&lt;0,05), aber keine Gruppe-Unterschiede ab Monat 1. Keine Belege für Rekkonsolidierungs-spezifische Effekte.",
+    transfer:"China, Suchtbehandlung; Timing-Effekte bei Lernmechanismen grundlegend relevant."
+  },
+  {
+    journal:"Early Interv Psychiatry", year:"2026", pmid:"43035362",
+    author:"Reynolds N et al.", pubdate:"Nov. 2026",
+    added:"15.11.2026",
+    title:"Psychologische Brückenbefundung nach Erstmanifestation reduziert Drop-out beim Übergang in ambulante Betreuung",
+    sum:"Pilot-Studie zur Machbarkeit und Akzeptanz einer sechssitzigen psychologischen Intervention (CBT-informiert) beim Übergang aus stationärer Behandlung nach Erstpsychose in die Gemeinde.",
+    result:"Von 38 berechtigten Patienten traten 28 bei (74%), brachen 6 ab (15%), und 17 (44%) absolvierten alle sechs Sitzungen. Zufriedenheitswerte waren hoch (4,76/5). Patienten berichteten von psychologischer Kontinuität, Bewältigungsstrategien und besserer Verarbeitung der stationären Erfahrungen. Die Intervention war in Routine-Versorgung umsetzbar.",
+    transfer:"England, spezialisierte Early-Intervention-Einheit, Schnittstellen-Problem auch in Deutschland zentral."
+  },
+  {
+    journal:"Med J Aust", year:"2026", pmid:"43035313",
+    author:"Smout S et al.", pubdate:"Nov. 2026",
+    added:"15.11.2026",
+    title:"Sektorenübergreifende Schulpartnerschaften für Jugendpsychiatrie: Barrieren und Erfolgsfaktoren identifiziert",
+    sum:"Qualitativ-partizipative Studie mit Jugendlichen, Politikern und Fachleuten zu Hindernissen, Förderfaktoren und Prioritäten für ressortübergreifende Partnerschaften zur Unterstützung von Jugendmentalgesundheit in australischen Schulen.",
+    result:"Jugendliche Prioritäten: Schulkultur, soziale Ungleichheit, Zugang zu Versorgungspfaden. Barrieren: Zeitdruck, Ressourcenmangel, fragmentierte Systeme. Ermöglicher: Schulkultur mit Priorität Mentalgesundheit, Fachkräfte mit Zusammenarbeitsfähigkeiten. 10-Punkte-Liste an Maßnahmen co-entwickelt.",
+    transfer:"Australien, Schulsektor; Fragmentierung der Systeme auch deutsche Besonderheit."
+  },
+  {
+    journal:"J Int AIDS Soc", year:"2026", pmid:"43032918",
+    author:"Witzel TC et al.", pubdate:"Nov. 2026",
     added:"14.11.2026",
-    title:"Schlafstörung vermittelt Zusammenhang zwischen Berufsfraglität und Psyche von Pflegekräften",
-    sum:"Querschnittstudie mit 258 Pflegekräften in Dubai-Krankenhäusern zu Mediationseffekten von Schlafstörungen auf den Zusammenhang zwischen beruflicher Lebensqualität (Burnout, Mitgefühlsermüdung, Mitgefühlszufriedenheit) und psychischer Gesundheit.",
-    result:"Burnout und Mitgefühlsermüdung hatten negative, Mitgefühlszufriedenheit positive direkte und indirekte Effekte auf psychische Gesundheit. Schlafstörung vermittelte diese Assoziationen partiell und signifikant. Schlafstörung als Mediator unterstützt die Forderung nach schlafbezogenen Interventionen zur Resilienzförderung.",
-    transfer:"VAE mit anderen Arbeitsbedingungen; Schlafmediation als konzeptuelles Modell universal, empirische Effekte bedürfen lokaler Validierung."
+    title:"Versorgungslücken für Männer mit Männerverkehr in Südostasien: Fokus auf HIV statt psychische Gesundheit",
+    sum:"Systematische Kartierung von 148 Interventionen in Südostasien für Männer, die Sex mit Männern haben, zu Substanzgebrauch, Mentalgesundheit und sexueller Gesundheit (Datenbank-Suche 2010–2024, 154.502 Teilnehmer).",
+    result:"143 Interventionen fokussierten sexuelle Gesundheit/HIV (Testung, PrEP, Behandlung). Nur 3 adressierten Mentalgesundheit, 2 Substanzgebrauch. Nur eine Intervention erfasste alle drei Bereiche. Psychosoziale Unterstützung unterrepräsentiert (n=7).",
+    transfer:"Südostasien, globales Problem; zeigt Fragmentierung auch in deutschland-relevanten Ländern."
   },
   {
-    journal:"Psychol Med", year:"2026", pmid:"43001504",
-    author:"Golde S et al.", pubdate:"09.11.2026",
-    added:"09.11.2026",
-    title:"Hirnkonnektivität während kognitiver Umbewerung unterscheidet CBT-Responder von Nicht-Respondern",
-    sum:"fMRT-Studie mit 77 Patienten mit Major Depression während Umwertungsaufgabe vor 25 CBT-Sitzungen; Effective Connectivity innerhalb eines 10-Regionen-Netzwerks wurde mittels dynamischer kausaler Modellierung untersucht; Vorhersage des Therapieerfolgs durch Cross-Validation geprüft.",
-    result:"Responder (n=39) zeigten stärkere dorsomediale-zu-ventrolaterale präfrontale Kaskade, Nicht-Responder stärkere Amygdala-zu-präfrontale Konnektivität. Effekte überschritten 99% posterior probability; cross-validated Vorhersagekraft r=0,21-0,31 (p&lt;0,05), jedoch nur modest incremental utility über baseline-Klinisches.",
-    transfer:"Deutschland, Berlin; fMRT-Infrastruktur und Studienpopulation deutschsprachig vergleichbar."
-  },
-  {
-    journal:"Transl Psychiatry", year:"2026", pmid:"42977801",
-    author:"Schöniger K et al.", pubdate:"03.11.2026",
-    added:"03.11.2026",
-    title:"Mittlerer Schläfenlappen-Volumen prognostiziert CBT-Erfolg bei Depression",
-    sum:"Strukturelle MRT-Studie mit 52 depressiven Patienten und 42 Kontrollen; Assoziation zwischen prätreatment kortikale Graumasse (GMV) und Symptomreduktion nach 6-monatiger ambulanter CBT; Regressionsmodelle mit FDR-Korrektur.",
-    result:"Baseline-GMV des rechten mittleren Schläfenlappens korrelierte signifikant mit Symptomreduktion (β=0,55, pFDR=0,033) und erklärte 15% zusätzlicher Varianz über klinische Variablen hinaus. Patienten zeigten signifikant höhere Depressivität am Baseline und größere Reduktion über Zeit (alle p&lt;0,001).",
-    transfer:"Deutschland, Halle/Münster; deutsches Klinik- und Patientensystem direkt übertragbar."
-  },
-  {
-    journal:"J Sch Health", year:"2026", pmid:"43018075",
-    author:"Potmesilova P et al.", pubdate:"Nov. 2026",
-    added:"12.11.2026",
-    title:"Lehrerunterstützung und Schulzufriedenheit verbessern Wohlbefinden von Schülern deutlich",
-    sum:"Nationale Querschnittstudie mit 14.588 tschechischen Schülern (11, 13, 15 Jahre) zu Zusammenhängen zwischen Schulumfeld (Lehrerunterstützung, Klassenkameradschaftlichkeit, Schulzufriedenheit, Schulleistung, Lernbelastung) und Wohlbefinden (WHO-5-Index).",
-    result:"Höhere Schulzufriedenheit, stärkere Lehrerunterstützung und Klassenkameradschaften sowie bessere Schulleistung zeigten signifikante positive Assoziationen mit Wohlbefinden (alle p&lt;0,05). Mädchen und ältere Schüler berichteten niedrigere Werte; Lernbelastung wirkte negativ. Wohlbefinden, Lehrerunterstützung und Schulzufriedenheit sanken mit dem Alter.",
-    transfer:"Czechia, Sekundarschulsystem; europäische Grundlagen direkt anwendbar."
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"43031710",
-    author:"Nechombo B et al.", pubdate:"30.10.2026",
+    journal:"Front Public Health", year:"2026", pmid:"43032673",
+    author:"Li S et al.", pubdate:"21.10.2026",
     added:"14.11.2026",
-    title:"Schizophrenie und bipolars Störung treiben psychiatrische Kosten in öffentlichen Kliniken",
-    sum:"Retrospektive Kostenanalyse mit Micro-Costing in südafrikanischer öffentlicher Uniklinik; direkte medizinische Kosten für ambulante psychiatrische Behandlung von 278 Patienten (Schizophrenie, bipolare Störung, Angststörung, Depression).",
-    result:"Schizophrenie hatte höchste Jahreskosten (R7.248,25 pro Patient), gefolgt von bipolarer Störung (R5.762,10), Angststörung (R4.853,14) und Depression (R4.792,79). Psychiatrische Medikation war Hauptkostentreiber; signifikanter Zusammenhang zwischen Diagnose und Kosten (p&lt;0,001). Supportive Therapien wie CBT zeigten moderate Zusatzkosten.",
-    transfer:"Südafrika, öffentliches System mit begrenzten Ressourcen; Kostenmuster für LMIC relevant, aber nicht direkt auf deutsches System übertragbar."
+    title:"Rheumatologie-Patienten akzeptieren Psychotherapie, wissen aber zu wenig - Knowledge-Attitude-Practice-Studie",
+    sum:"Querschnitts-Erhebung mit 672 Patienten mit rheumatischen Erkrankungen (Autoimmun/entzündlich) in 6 chinesischen Krankenhäusern zu Wissen, Einstellung und Praxis bezüglich Psychotherapie und Mentalgesundheit.",
+    result:"Mittelwerte: Wissen 5,65±4,81 (Range 0–18), Einstellung 23,03±4,13 (6–30), Praxis 18,41±4,18 (6–30). Wissen korrelierte direkt mit Praxis (β=0,518, p=0,001), Einstellung mit Praxis (β=0,202, p=0,001). Strukturgleichungsmodell: Wissen → Einstellung → Praxis. Wissensdefizite und geringe Inanspruchnahme trotz positiver Einstellung.",
+    transfer:"China, somatische Erkrankungen; Schnittstelle Medizin–Psychiatrie auch deutsche Herausforderung."
   },
   {
-    journal:"Environ Res", year:"2026", pmid:"42957027",
-    author:"Wang R et al.", pubdate:"15.12.2026",
-    added:"29.10.2026",
-    title:"Grüne und blaue Räume senken Suizidrisiko und Rezeptverbrauch",
-    sum:"Bevölkerungsgestützte Kohortenstudie mit über 2 Millionen Datensätzen aus Nordirland zu Zusammenhängen zwischen Zugang zu natürlichen Außenräumen (Grün- und Blauflächen) und psychischen Ergebnissen (Suizid, stationäre Aufnahme, Psychopharmaka-Verbrauch) vor und während COVID-19.",
-    result:"Personen mit höherem Grün-/Blauflächenanteil hatten niedrigeres Suizidrisiko (HR=0,634 bzw. 0,684, p&lt;0,05) und niedrigere Odds für Psychopharmaka-Verbrauch (OR=0,835 bzw. 0,802, p&lt;0,05). Die Assoziation war in sozioökonomisch benachteiligten Vierteln stärker, besonders in der Pandemie. Kein signifikanter Effekt auf stationäre Aufnahmen gefunden.",
-    transfer:"Nordirland mit NHS-Finanzierung; Grundlagen auf europäische Systeme übertragbar."
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43035428",
+    author:"Van Hoe C et al.", pubdate:"19.08.2026",
+    added:"15.11.2026",
+    title:"Oyster Care in Wohneinrichtungen: Implementierungs-Tool und Peer-Review fördern reflektive Praxis und Kontinuität",
+    sum:"Qualitativ-explorative Implementierungs-Pilot-Studie von Oyster Care (Palliativ-Psychiatrie-Ansatz) in 4 flämischen Wohneinrichtungen mit Instrument und Peer-Review-Prozess; Interviews und Fokusgruppen mit Fachkräften zu Machbarkeit und Akzeptabilität.",
+    result:"Oyster-Care-Monitoring-Tool und Peer-Review fungierten als Katalysator für Implementierung in Routinepraxis, leiteten Fachkräfte an, förderten kritische Reflexion und Wissensaustausch. Fachkräfte berichteten erneuerte Motivation und gemeinsamen Sinn. Supportive Policy-Maßnahmen und Anpassung an Versorgungsrealitäten als essentiell für nachhaltige Implementierung.",
+    transfer:"Belgien/Flandern, vergleichbares Sozialversicherungssystem, gemeindenahe Versorgung."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2332,7 +2341,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "16.11.2026";
+const NEWS_STAND = "17.11.2026";
 const NEWS = [
   {titel:"Psychotherapie-Vergütung 2018 rechtswidrig: BSG gibt Klage statt", datum:"2026-11-09", url:"https://www.monitor-versorgungsforschung.de/news/psychotherapie-verguetung-2018-rechtswidrig-bsg-gibt-klage-statt/"},
   {titel:"Informationsdienst Psychische Gesundheit: DZPG startet Portal", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/informationsdienst-psychische-gesundheit-dzpg-startet-portal/"},
