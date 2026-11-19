@@ -1,35 +1,35 @@
 {
  "hub": "Knowledge-Hub Psychische Gesundheit",
  "domain": "mental.m-vf.de",
- "datum": "2026-11-18",
+ "datum": "2026-11-19",
  "stand": "terminiert",
- "titel": "MVF Mental-Newsletter 18.11.2026",
- "betreff": "Neueste Studien - Psychische Gesundheit – 18. November 2026",
+ "titel": "MVF Mental-Newsletter 19.11.2026",
+ "betreff": "Neueste Studien - Psychische Gesundheit – 19. November 2026",
  "anzahl": 6,
  "pmids": [
-  "43042274",
-  "43040495",
-  "43040485",
-  "43038311",
-  "43037716",
-  "43024879"
+  "43049315",
+  "43046521",
+  "43046046",
+  "43034952",
+  "43024873",
+  "42852934"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099943",
- "termin_utc": "2026-11-18T09:00:00+00:00",
- "empfaenger": 13,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099977",
+ "termin_utc": "2026-11-19T09:00:00+00:00",
+ "empfaenger": 12,
  "listengroesse": 5849,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 135,
-  "pool": 44,
+  "bekannt": 132,
+  "pool": 45,
   "gewaehlt": 6,
   "neu": 6
  },
  "rubriken": {
   "radar": "e36f1e297e81dc49",
-  "news": "b9ab61999ac09ecf",
+  "news": "7e693ca1a68da664",
   "zulassungen": "be958245e6ee8a18"
  }
 }
